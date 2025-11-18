@@ -10,33 +10,32 @@
 #include "FreeRTOS.h"
 #include "semphr.h"
 
-// --- Periféricos ---
+// --- LED de Estado (PC13) ---
 #define LED_PORT    GPIOC
 #define LED_PIN     GPIO13
 
+// --- PWM (Solo PA0) ---
 #define PWM_PORT    GPIOA
 #define PWM_TIM     TIM2
-#define PWM1_PIN    GPIO0
-#define PWM1_CH     TIM_OC1
-#define PWM2_PIN    GPIO3
-#define PWM2_CH     TIM_OC4
+#define PWM_PIN     GPIO0
+#define PWM_CH      TIM_OC1
 
+// --- ADC (Solo PA1) ---
 #define ADC_PORT    GPIOA
-#define POT1_PIN    GPIO1
-#define POT2_PIN    GPIO2
+#define POT_PIN     GPIO1
 #define ADC_DEV     ADC1
 
-// --- Globales ---
-// Buffer para los 2 canales del ADC (Pot1 y Pot2)
-extern volatile uint16_t adc_dma_buffer[2];
-// Semáforo para sincronizar DMA -> Tarea
+// --- Variables Globales ---
+// Buffer para 1 solo valor (16 bits)
+extern volatile uint16_t adc_val;
 extern SemaphoreHandle_t sem_adc_ready;
 
 // --- Funciones ---
 void clock_setup(void);
 void gpio_setup(void);
-void pwm_setup(void);
 void dma_setup(void);
 void adc_setup(void);
+void pwm_setup(void);
+void adc_read_single(void); // Función simplificada
 
 #endif /* CONFIG_H */
