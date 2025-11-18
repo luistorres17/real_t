@@ -1,57 +1,28 @@
-/* Simple LED task demo:
- *
- * The LED on PC13 is toggled in task1.
- */
-#include <string.h>
-
 #include "FreeRTOS.h"
 #include "task.h"
+#include "semphr.h" // Necesario para crear el semáforo
+#include "config.h"
+#include "app_task.h"
 
-#include <libopencm3/stm32/rcc.h>
-#include <libopencm3/stm32/gpio.h>
-#include <libopencm3/cm3/nvic.h>
+int main(void) {
+    clock_setup();
+    gpio_setup();
+    
+    // Crear el semáforo binario antes de usarlo en interrupciones o tareas
+    sem_adc_ready = xSemaphoreCreateBinary();
 
-#define mainECHO_TASK_PRIORITY				( tskIDLE_PRIORITY + 1 )
+    // Orden correcto: Configurar DMA -> Configurar ADC (que arranca el dma)
+    dma_setup();
+    adc_setup();
+    pwm_setup();
 
-extern void vApplicationStackOverflowHook(xTaskHandle *pxTask,signed portCHAR *pcTaskName);
+    xTaskCreate(task_blink, "BLINK", configMINIMAL_STACK_SIZE, NULL, 1, NULL);
+    
+    // Prioridad más alta para el control
+    xTaskCreate(task_control, "CTRL", configMINIMAL_STACK_SIZE, NULL, 2, NULL);
 
-void
-vApplicationStackOverflowHook(xTaskHandle *pxTask,signed portCHAR *pcTaskName) {
-	(void)pxTask;
-	(void)pcTaskName;
-	for(;;);
+    vTaskStartScheduler();
+
+    while (1);
+    return 0;
 }
-
-static void
-gpio_setup(void) {
-
-	rcc_clock_setup_in_hse_8mhz_out_72mhz();	// Use this for "blue pill"
-	rcc_periph_clock_enable(RCC_GPIOC);
-	gpio_set_mode(GPIOC,GPIO_MODE_OUTPUT_2_MHZ,GPIO_CNF_OUTPUT_PUSHPULL,GPIO13);
-}
-
-static void
-task1(void *args) {
-	int i;
-
-	(void)args;
-
-	for (;;) {
-		gpio_toggle(GPIOC,GPIO13);
-		for (i = 0; i < 300000; i++)
-			__asm__("nop");
-	}
-}
-
-int
-main(void) {
-
-	gpio_setup();
-	xTaskCreate(task1,"LED",100,NULL,configMAX_PRIORITIES-1,NULL);
-	vTaskStartScheduler();
-	for (;;)
-		;
-	return 0;
-}
-
-// End
