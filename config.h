@@ -6,36 +6,39 @@
 #include <libopencm3/stm32/timer.h>
 #include <libopencm3/stm32/adc.h>
 #include <libopencm3/stm32/dma.h>
-#include <libopencm3/cm3/nvic.h>
 #include "FreeRTOS.h"
 #include "semphr.h"
 
-// --- LED de Estado (PC13) ---
+// --- Hardware ---
 #define LED_PORT    GPIOC
 #define LED_PIN     GPIO13
 
-// --- PWM (Solo PA0) ---
+// PWM
 #define PWM_PORT    GPIOA
 #define PWM_TIM     TIM2
-#define PWM_PIN     GPIO0
-#define PWM_CH      TIM_OC1
+#define PWM1_PIN    GPIO0
+#define PWM1_CH     TIM_OC1
+#define PWM2_PIN    GPIO3
+#define PWM2_CH     TIM_OC4
 
-// --- ADC (Solo PA1) ---
+// ADC
 #define ADC_PORT    GPIOA
-#define POT_PIN     GPIO1
+#define POT1_PIN    GPIO1
+#define POT2_PIN    GPIO2
 #define ADC_DEV     ADC1
 
-// --- Variables Globales ---
-// Buffer para 1 solo valor (16 bits)
-extern volatile uint16_t adc_val;
+// --- Globales ---
+// Mantenemos el semáforo solo para que main.c no falle al compilar
 extern SemaphoreHandle_t sem_adc_ready;
 
 // --- Funciones ---
 void clock_setup(void);
 void gpio_setup(void);
-void dma_setup(void);
+void dma_setup(void); // Se mantiene vacía para compatibilidad
 void adc_setup(void);
 void pwm_setup(void);
-void adc_read_single(void); // Función simplificada
+
+// NUEVA: Función que devuelve el valor inmediatamente
+uint16_t adc_read_blocking(uint8_t channel);
 
 #endif /* CONFIG_H */
