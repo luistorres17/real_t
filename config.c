@@ -1,5 +1,7 @@
 #include "config.h"
 
+// Buffer para los datos del ADC
+volatile uint16_t adc_dma_buffer[2];
 SemaphoreHandle_t sem_adc_ready = NULL;
 
 void clock_setup(void) {
@@ -8,6 +10,7 @@ void clock_setup(void) {
     rcc_periph_clock_enable(RCC_GPIOA);
     rcc_periph_clock_enable(RCC_TIM2);
     rcc_periph_clock_enable(RCC_ADC1);
+    rcc_periph_clock_enable(RCC_DMA1);
 }
 
 void gpio_setup(void) {
@@ -17,27 +20,50 @@ void gpio_setup(void) {
 }
 
 void dma_setup(void) {
-    // No usado en esta versión
+    // DMA1 Canal 1 sirve al ADC1
+    dma_channel_reset(DMA1, DMA_CHANNEL1);
+
+    dma_set_peripheral_address(DMA1, DMA_CHANNEL1, (uint32_t)&ADC_DR(ADC1));
+    dma_set_memory_address(DMA1, DMA_CHANNEL1, (uint32_t)adc_dma_buffer);
+    dma_set_number_of_data(DMA1, DMA_CHANNEL1, 2);
+    
+    dma_set_read_from_peripheral(DMA1, DMA_CHANNEL1);
+    dma_enable_memory_increment_mode(DMA1, DMA_CHANNEL1);
+    dma_set_peripheral_size(DMA1, DMA_CHANNEL1, DMA_CCR_PSIZE_16BIT);
+    dma_set_memory_size(DMA1, DMA_CHANNEL1, DMA_CCR_MSIZE_16BIT);
+    
+    // IMPORTANTE: Sin modo circular. Queremos disparar -> leer 2 datos -> parar.
+    // dma_enable_circular_mode(DMA1, DMA_CHANNEL1);
+    
+    dma_enable_transfer_complete_interrupt(DMA1, DMA_CHANNEL1);
+    
+    nvic_enable_irq(NVIC_DMA1_CHANNEL1_IRQ);
+    nvic_set_priority(NVIC_DMA1_CHANNEL1_IRQ, 5 * 16);
 }
 
 void adc_setup(void) {
-    rcc_set_adcpre(RCC_CFGR_ADCPRE_PCLK2_DIV6); // 12MHz
+    rcc_set_adcpre(RCC_CFGR_ADCPRE_PCLK2_DIV6);
     adc_power_off(ADC_DEV);
     
-    adc_disable_scan_mode(ADC_DEV);
+    // Configuración SCAN (Multi-canal)
+    adc_enable_scan_mode(ADC_DEV);
     adc_set_single_conversion_mode(ADC_DEV);
     adc_set_right_aligned(ADC_DEV);
     adc_set_sample_time_on_all_channels(ADC_DEV, ADC_SMPR_SMP_239DOT5CYC);
 
-    // --- CORRECCIÓN CRÍTICA ---
-    // Habilitar el disparador externo y seleccionarlo como SWSTART.
-    // Sin esto, adc_start_conversion_regular() no hace nada en el F1.
+    uint8_t channels[] = { 1, 2 }; // PA1, PA2
+    adc_set_regular_sequence(ADC_DEV, 2, channels);
+
+    // --- EL FIX CRÍTICO ---
+    // Habilitar trigger externo para SWSTART. Sin esto, el F1 no arranca por software.
     adc_enable_external_trigger_regular(ADC_DEV, ADC_CR2_EXTSEL_SWSTART);
-    // --------------------------
+    // ---------------------
+
+    // Habilitar DMA en el ADC
+    adc_enable_dma(ADC_DEV);
 
     adc_power_on(ADC_DEV);
     
-    // Espera de estabilización (importante)
     for (int i = 0; i < 800000; i++) __asm__("nop");
 
     adc_reset_calibration(ADC_DEV);
@@ -63,26 +89,32 @@ void pwm_setup(void) {
     timer_enable_counter(PWM_TIM);
 }
 
-// Lectura bloqueante con Timeout
-uint16_t adc_read_blocking(uint8_t channel) {
-    uint8_t channel_array[16];
-    channel_array[0] = channel;
+// Función para rearmar y disparar
+void adc_start_scan(void) {
+    // 1. Apagar DMA para recargar contador
+    dma_disable_channel(DMA1, DMA_CHANNEL1);
     
-    adc_set_regular_sequence(ADC_DEV, 1, channel_array);
-    
-    // Limpiar flag anterior por seguridad
+    // 2. Limpiar banderas viejas
+    dma_clear_interrupt_flags(DMA1, DMA_CHANNEL1, DMA_TCIF);
     ADC_SR(ADC_DEV) = 0;
+
+    // 3. Recargar contador a 2 conversiones
+    dma_set_number_of_data(DMA1, DMA_CHANNEL1, 2);
     
-    // Iniciar conversión (Ahora sí funcionará por el trigger configurado)
+    // 4. Habilitar DMA y Disparar ADC
+    dma_enable_channel(DMA1, DMA_CHANNEL1);
     adc_start_conversion_regular(ADC_DEV);
-    
-    // Esperar EOC
-    uint32_t timeout = 0xFFFFF; 
-    while (!adc_eoc(ADC_DEV)) {
-        if (--timeout == 0) {
-            return 0xFFFF; // CÓDIGO DE ERROR: Devolvemos valor máximo (65535)
+}
+
+// ISR del DMA: Avisa a la tarea cuando terminó
+void dma1_channel1_isr(void) {
+    if (dma_get_interrupt_flag(DMA1, DMA_CHANNEL1, DMA_TCIF)) {
+        dma_clear_interrupt_flags(DMA1, DMA_CHANNEL1, DMA_TCIF);
+        
+        BaseType_t xHigherPriorityTaskWoken = pdFALSE;
+        if (sem_adc_ready != NULL) {
+            xSemaphoreGiveFromISR(sem_adc_ready, &xHigherPriorityTaskWoken);
         }
+        portYIELD_FROM_ISR(xHigherPriorityTaskWoken);
     }
-    
-    return adc_read_regular(ADC_DEV);
 }

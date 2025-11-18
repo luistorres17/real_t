@@ -8,6 +8,7 @@ int main(void) {
     clock_setup();
     gpio_setup();
     
+    // Crear semáforo antes de configurar interrupciones
     sem_adc_ready = xSemaphoreCreateBinary();
 
     dma_setup();
@@ -16,7 +17,7 @@ int main(void) {
 
     xTaskCreate(task_blink, "BLINK", configMINIMAL_STACK_SIZE, NULL, 1, NULL);
     
-    // CORRECCIÓN AQUÍ: Aumentamos el Stack a 256 (o el doble del mínimo)
+    // Stack generoso para no arriesgar
     xTaskCreate(task_control, "CTRL", 256, NULL, 2, NULL);
 
     vTaskStartScheduler();
