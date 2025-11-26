@@ -3,24 +3,41 @@
 volatile uint16_t adc_dma_buffer[1];
 SemaphoreHandle_t sem_adc_ready = NULL;
 SemaphoreHandle_t mutex_adc_buffer = NULL;
+SemaphoreHandle_t mutex_pwm_resource = NULL;
+SemaphoreHandle_t sem_button_pressed = NULL; // Instancia del semáforo
 
 void clock_setup(void) {
     rcc_clock_setup_pll(&rcc_hse_configs[RCC_CLOCK_HSE8_72MHZ]);
     rcc_periph_clock_enable(RCC_GPIOC);
     rcc_periph_clock_enable(RCC_GPIOA);
+    rcc_periph_clock_enable(RCC_GPIOB); // Reloj para el puerto del botón
     rcc_periph_clock_enable(RCC_ADC1);
     rcc_periph_clock_enable(RCC_DMA1);
     rcc_periph_clock_enable(RCC_TIM2);
+    rcc_periph_clock_enable(RCC_AFIO);  // Necesario para EXTI
 }
 
 void gpio_setup(void) {
     gpio_set_mode(LED_PORT, GPIO_MODE_OUTPUT_2_MHZ, GPIO_CNF_OUTPUT_PUSHPULL, LED_PIN);
-    
-    // PWM 1 (PA0)
     gpio_set_mode(GPIOA, GPIO_MODE_OUTPUT_50_MHZ, GPIO_CNF_OUTPUT_ALTFN_PUSHPULL, PWM1_PIN);
-    
-    // ADC (PA1)
     gpio_set_mode(ADC_PORT, GPIO_MODE_INPUT, GPIO_CNF_INPUT_ANALOG, POT1_PIN);
+}
+
+// Configuración de la interrupción del botón
+void button_setup(void) {
+    // Configurar pin como entrada con Pull-Up (asumiendo botón conecta a GND)
+    gpio_set_mode(BUTTON_PORT, GPIO_MODE_INPUT, GPIO_CNF_INPUT_PULL_UPDOWN, BUTTON_PIN);
+    gpio_set(BUTTON_PORT, BUTTON_PIN); // Activar Pull-Up interno
+
+    // Configurar EXTI (External Interrupt)
+    nvic_enable_irq(BUTTON_NVIC);
+    nvic_set_priority(BUTTON_NVIC, 6 * 16); // Prioridad intermedia
+
+    // Mapear PB5 a la linea EXTI5
+    gpio_primary_remap(AFIO_MAPR_SWJ_CFG_JTAG_OFF_SW_ON, 0); // Asegurar SWD activo
+    exti_select_source(BUTTON_EXTI, BUTTON_PORT);
+    exti_set_trigger(BUTTON_EXTI, EXTI_TRIGGER_FALLING); // Flanco de bajada (al presionar)
+    exti_enable_request(BUTTON_EXTI);
 }
 
 void dma_setup(void) {
@@ -57,16 +74,13 @@ void adc_setup(void) {
 }
 
 void pwm_setup(void) {
-    // --- TIMER 2: Frecuencia Variable (Para PWM 1 en PA0) ---
     rcc_periph_reset_pulse(RST_TIM2);
     timer_set_mode(PWM1_TIM, TIM_CR1_CKD_CK_INT, TIM_CR1_CMS_EDGE, TIM_CR1_DIR_UP);
-    // Base de tiempo 1 MHz para facilitar cálculos de frecuencia
     timer_set_prescaler(PWM1_TIM, 71); 
-    timer_set_period(PWM1_TIM, 99); // Inicial 10kHz (1MHz / 100 = 10kHz)
-
+    timer_set_period(PWM1_TIM, 99); 
     timer_set_oc_mode(PWM1_TIM, PWM1_CH, TIM_OCM_PWM1);
     timer_enable_oc_output(PWM1_TIM, PWM1_CH);
-    timer_set_oc_value(PWM1_TIM, PWM1_CH, 50);  // 50% duty
+    timer_set_oc_value(PWM1_TIM, PWM1_CH, 50);  
     timer_enable_counter(PWM1_TIM);
 }
 
@@ -85,6 +99,20 @@ void dma1_channel1_isr(void) {
         BaseType_t xHigherPriorityTaskWoken = pdFALSE;
         if (sem_adc_ready != NULL) {
             xSemaphoreGiveFromISR(sem_adc_ready, &xHigherPriorityTaskWoken);
+        }
+        portYIELD_FROM_ISR(xHigherPriorityTaskWoken);
+    }
+}
+
+// Manejador de la interrupción del botón (EXTI Lines 5-9)
+void exti9_5_isr(void) {
+    if (exti_get_flag_status(BUTTON_EXTI)) {
+        exti_reset_request(BUTTON_EXTI); // Limpiar bandera hardware
+        
+        BaseType_t xHigherPriorityTaskWoken = pdFALSE;
+        if (sem_button_pressed != NULL) {
+            // Notificar a la tarea turbo
+            xSemaphoreGiveFromISR(sem_button_pressed, &xHigherPriorityTaskWoken);
         }
         portYIELD_FROM_ISR(xHigherPriorityTaskWoken);
     }

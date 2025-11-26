@@ -4,7 +4,6 @@
 #include "config.h"
 #include "app_task.h"
 
-// Función de error: parpadeo rápido del LED
 static void error_handler(void) {
     while (1) {
         gpio_toggle(LED_PORT, LED_PIN);
@@ -18,38 +17,36 @@ int main(void) {
     clock_setup();
     gpio_setup();
     
-    // Crear semáforo antes de configurar interrupciones
+    // 1. Crear primitivas
     sem_adc_ready = xSemaphoreCreateBinary();
-    if (sem_adc_ready == NULL) {
-        error_handler();  // Fallo crítico: no se pudo crear el semáforo
-    }
-    
-    // Crear mutex para proteger acceso al buffer DMA
+    sem_button_pressed = xSemaphoreCreateBinary(); // Crear semáforo del botón
     mutex_adc_buffer = xSemaphoreCreateMutex();
-    if (mutex_adc_buffer == NULL) {
-        error_handler();  // Fallo crítico: no se pudo crear el mutex
+    mutex_pwm_resource = xSemaphoreCreateMutex();
+    
+    if (!sem_adc_ready || !sem_button_pressed || !mutex_adc_buffer || !mutex_pwm_resource) {
+        error_handler(); 
     }
 
+    // 2. Configurar Periféricos
     dma_setup();
     adc_setup();
     pwm_setup();
+    button_setup(); // Configurar EXTI del botón
 
-    // Crear tarea de parpadeo con validación
-    task_status = xTaskCreate(task_blink, "BLINK", configMINIMAL_STACK_SIZE, NULL, 1, NULL);
-    if (task_status != pdPASS) {
-        error_handler();  // Fallo: no se pudo crear task_blink
-    }
+    // 3. Crear Tareas
+    // Tarea Blink (Prioridad 1 - Baja)
+    xTaskCreate(task_blink, "BLINK", configMINIMAL_STACK_SIZE, NULL, 1, NULL);
     
-    // Stack reducido de 256 a 128 palabras (suficiente para la lógica actual)
-    task_status = xTaskCreate(task_control, "CTRL", 128, NULL, 2, NULL);
-    if (task_status != pdPASS) {
-        error_handler();  // Fallo: no se pudo crear task_control
-    }
+    // Tarea Control PID (Prioridad 2 - Media)
+    xTaskCreate(task_control, "CTRL", 256, NULL, 2, NULL);
+    
+    // Tarea Turbo (Prioridad 3 - Alta)
+    // Debe ser mayor que CTRL para atender la interrupción rápido y bloquear el recurso
+    task_status = xTaskCreate(task_turbo, "TURBO", 128, NULL, 3, NULL);
+    if (task_status != pdPASS) error_handler();
 
     vTaskStartScheduler();
 
-    // Si llegamos aquí, el scheduler falló (no debería pasar)
     error_handler();
-    
     return 0;
 }

@@ -5,47 +5,41 @@ void PID_Init(PID_Controller *pid, float kp, float ki, float kd, float dt) {
     pid->Ki = ki;
     pid->Kd = kd;
     pid->dt = dt;
-    pid->setpoint = 10000.0f;  // 10 kHz fixed setpoint
+    pid->setpoint = 0.0f; 
     pid->integral = 0.0f;
     pid->prev_error = 0.0f;
     
-    // Output limits: timer period values
-    // For 1 MHz timer clock:
-    // 20 kHz -> period = 50
-    // 1 kHz -> period = 1000
-    pid->output_min = 50.0f;    // Max frequency (20 kHz)
-    pid->output_max = 1000.0f;  // Min frequency (1 kHz)
+    // Limites de corrección: El PID puede sugerir corregir hasta +/- 2000Hz por ciclo
+    // Esto evita saltos demasiado bruscos
+    pid->output_min = -2000.0f;
+    pid->output_max = 2000.0f;
 }
 
 float PID_Calculate(PID_Controller *pid, float error) {
-    // Proportional term
+    // Término Proporcional
     float P = pid->Kp * error;
     
-    // Integral term
+    // Término Integral
     pid->integral += error * pid->dt;
     float I = pid->Ki * pid->integral;
     
-    // Derivative term
+    // Término Derivativo
     float derivative = (error - pid->prev_error) / pid->dt;
     float D = pid->Kd * derivative;
     
-    // Calculate total output
+    // Salida total (Ajuste de Hz)
     float output = P + I + D;
     
-    // Anti-windup: clamp output and back-calculate integral
+    // Anti-windup y Clamping
     if (output > pid->output_max) {
         output = pid->output_max;
-        // Back-calculate integral to prevent windup
-        pid->integral -= error * pid->dt;
+        pid->integral -= error * pid->dt; // Evitar acumulación infinita
     } else if (output < pid->output_min) {
         output = pid->output_min;
-        // Back-calculate integral to prevent windup
         pid->integral -= error * pid->dt;
     }
     
-    // Store error for next iteration
     pid->prev_error = error;
-    
     return output;
 }
 

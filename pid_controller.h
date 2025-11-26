@@ -4,27 +4,22 @@
 #include <stdint.h>
 
 typedef struct {
-    float Kp;           // Proportional gain
-    float Ki;           // Integral gain
-    float Kd;           // Derivative gain
+    float Kp;           // Ganancia Proporcional
+    float Ki;           // Ganancia Integral
+    float Kd;           // Ganancia Derivativa
     
-    float setpoint;     // Target value (10000 Hz)
-    float integral;     // Integral accumulator
-    float prev_error;   // Previous error for derivative
+    float setpoint;     // Valor objetivo
+    float integral;     // Acumulador integral
+    float prev_error;   // Error previo
     
-    float output_min;   // Anti-windup: minimum output (period)
-    float output_max;   // Anti-windup: maximum output (period)
+    float output_min;   // Limite salida min (corrección Hz)
+    float output_max;   // Limite salida max (corrección Hz)
     
-    float dt;           // Sample time (seconds)
+    float dt;           // Tiempo de muestreo
 } PID_Controller;
 
-// Initialize PID controller
 void PID_Init(PID_Controller *pid, float kp, float ki, float kd, float dt);
-
-// Calculate PID output
 float PID_Calculate(PID_Controller *pid, float error);
-
-// Reset PID state
 void PID_Reset(PID_Controller *pid);
 
 #endif /* PID_CONTROLLER_H */
