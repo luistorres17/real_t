@@ -1,0 +1,1982 @@
+Archive member included to satisfy reference by file (symbol)
+
+C:/PROGRA~2/ARMGNU~1/142BCE~1.3RE/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-memcpy.o)
+                              rtos/queue.o (memcpy)
+C:/PROGRA~2/ARMGNU~1/142BCE~1.3RE/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7-m/nofp\libgcc.a(_arm_mulsf3.o)
+                              pid_controller.o (__aeabi_fmul)
+C:/PROGRA~2/ARMGNU~1/142BCE~1.3RE/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
+                              app_task.o (__aeabi_fsub)
+C:/PROGRA~2/ARMGNU~1/142BCE~1.3RE/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivsf3.o)
+                              app_task.o (__aeabi_fdiv)
+C:/PROGRA~2/ARMGNU~1/142BCE~1.3RE/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7-m/nofp\libgcc.a(_arm_cmpsf2.o)
+                              pid_controller.o (__aeabi_fcmplt)
+C:/PROGRA~2/ARMGNU~1/142BCE~1.3RE/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7-m/nofp\libgcc.a(_arm_fixsfsi.o)
+                              app_task.o (__aeabi_f2iz)
+C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc.o)
+                              config.o (adc_power_on)
+C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+                              config.o (adc_power_off)
+C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+                              config.o (dma_channel_reset)
+C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio.o)
+                              config.o (gpio_set_mode)
+C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio_common_all.o)
+                              main.o (gpio_toggle)
+C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+                              config.o (rcc_set_adcpre)
+C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc_common_all.o)
+                              config.o (rcc_periph_clock_enable)
+C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+                              config.o (timer_set_mode)
+C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(vector.o)
+                              (reset_handler)
+C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(nvic.o)
+                              config.o (nvic_enable_irq)
+C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(assert.o)
+                              C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o) (cm3_assert_failed)
+C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(flash_common_all.o)
+                              C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o) (flash_set_ws)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 main.o
+ .data          0x00000000        0x0 main.o
+ .bss           0x00000000        0x0 main.o
+ .text          0x00000000        0x0 rtos/heap_4.o
+ .data          0x00000000        0x0 rtos/heap_4.o
+ .bss           0x00000000        0x0 rtos/heap_4.o
+ .text.xPortGetFreeHeapSize
+                0x00000000        0xc rtos/heap_4.o
+ .text.xPortGetMinimumEverFreeHeapSize
+                0x00000000        0xc rtos/heap_4.o
+ .text.vPortInitialiseBlocks
+                0x00000000        0x2 rtos/heap_4.o
+ .text.vPortGetHeapStats
+                0x00000000       0x84 rtos/heap_4.o
+ .text          0x00000000        0x0 rtos/list.o
+ .data          0x00000000        0x0 rtos/list.o
+ .bss           0x00000000        0x0 rtos/list.o
+ .text          0x00000000        0x0 rtos/port.o
+ .data          0x00000000        0x0 rtos/port.o
+ .bss           0x00000000        0x0 rtos/port.o
+ .text.vPortEndScheduler
+                0x00000000        0x2 rtos/port.o
+ .text          0x00000000        0x0 rtos/queue.o
+ .data          0x00000000        0x0 rtos/queue.o
+ .bss           0x00000000        0x0 rtos/queue.o
+ .text.prvCopyDataFromQueue
+                0x00000000       0x26 rtos/queue.o
+ .text.xQueueGenericSendFromISR
+                0x00000000       0x64 rtos/queue.o
+ .text.xQueueReceive
+                0x00000000       0xee rtos/queue.o
+ .text.xQueuePeek
+                0x00000000       0xec rtos/queue.o
+ .text.xQueueReceiveFromISR
+                0x00000000       0x64 rtos/queue.o
+ .text.xQueuePeekFromISR
+                0x00000000       0x30 rtos/queue.o
+ .text.uxQueueMessagesWaiting
+                0x00000000       0x12 rtos/queue.o
+ .text.uxQueueSpacesAvailable
+                0x00000000       0x16 rtos/queue.o
+ .text.uxQueueMessagesWaitingFromISR
+                0x00000000        0x4 rtos/queue.o
+ .text.vQueueDelete
+                0x00000000        0x4 rtos/queue.o
+ .text.xQueueIsQueueEmptyFromISR
+                0x00000000        0xa rtos/queue.o
+ .text.xQueueIsQueueFullFromISR
+                0x00000000        0xc rtos/queue.o
+ .text          0x00000000        0x0 rtos/tasks.o
+ .data          0x00000000        0x0 rtos/tasks.o
+ .bss           0x00000000        0x0 rtos/tasks.o
+ .text.vTaskDelete
+                0x00000000       0xc4 rtos/tasks.o
+ .text.uxTaskPriorityGet
+                0x00000000       0x1c rtos/tasks.o
+ .text.uxTaskPriorityGetFromISR
+                0x00000000       0x28 rtos/tasks.o
+ .text.vTaskPrioritySet
+                0x00000000       0xd4 rtos/tasks.o
+ .text.vTaskResume
+                0x00000000       0x94 rtos/tasks.o
+ .text.xTaskResumeFromISR
+                0x00000000       0xac rtos/tasks.o
+ .text.vTaskEndScheduler
+                0x00000000       0x20 rtos/tasks.o
+ .text.xTaskGetTickCount
+                0x00000000        0xc rtos/tasks.o
+ .text.xTaskGetTickCountFromISR
+                0x00000000        0xc rtos/tasks.o
+ .text.uxTaskGetNumberOfTasks
+                0x00000000        0xc rtos/tasks.o
+ .text.pcTaskGetName
+                0x00000000       0x10 rtos/tasks.o
+ .text.xTaskDelayUntil
+                0x00000000       0x54 rtos/tasks.o
+ .text.xTaskCatchUpTicks
+                0x00000000       0x1c rtos/tasks.o
+ .text.vTaskPlaceOnUnorderedEventList
+                0x00000000       0x40 rtos/tasks.o
+ .text.vTaskRemoveFromUnorderedEventList
+                0x00000000       0x94 rtos/tasks.o
+ .text.vTaskSetTimeOutState
+                0x00000000       0x24 rtos/tasks.o
+ .text.xTaskGetCurrentTaskHandle
+                0x00000000        0xc rtos/tasks.o
+ .text.uxTaskResetEventItemValue
+                0x00000000       0x18 rtos/tasks.o
+ .text.ulTaskGenericNotifyTake
+                0x00000000       0x84 rtos/tasks.o
+ .text.xTaskGenericNotifyWait
+                0x00000000       0xa8 rtos/tasks.o
+ .text.xTaskGenericNotify
+                0x00000000       0xf0 rtos/tasks.o
+ .text.xTaskGenericNotifyFromISR
+                0x00000000      0x118 rtos/tasks.o
+ .text.vTaskGenericNotifyGiveFromISR
+                0x00000000       0xd8 rtos/tasks.o
+ .text.xTaskGenericNotifyStateClear
+                0x00000000       0x30 rtos/tasks.o
+ .text.ulTaskGenericNotifyValueClear
+                0x00000000       0x2c rtos/tasks.o
+ .text          0x00000000        0x0 rtos/opencm3.o
+ .data          0x00000000        0x0 rtos/opencm3.o
+ .bss           0x00000000        0x0 rtos/opencm3.o
+ .text          0x00000000        0x0 config.o
+ .data          0x00000000        0x0 config.o
+ .bss           0x00000000        0x0 config.o
+ .text          0x00000000        0x0 app_task.o
+ .data          0x00000000        0x0 app_task.o
+ .bss           0x00000000        0x0 app_task.o
+ .text          0x00000000        0x0 pid_controller.o
+ .data          0x00000000        0x0 pid_controller.o
+ .bss           0x00000000        0x0 pid_controller.o
+ .text.PID_Reset
+                0x00000000        0x8 pid_controller.o
+ .data          0x00000000        0x0 C:/PROGRA~2/ARMGNU~1/142BCE~1.3RE/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-memcpy.o)
+ .bss           0x00000000        0x0 C:/PROGRA~2/ARMGNU~1/142BCE~1.3RE/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-memcpy.o)
+ .ARM.extab     0x00000000        0x0 C:/PROGRA~2/ARMGNU~1/142BCE~1.3RE/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-memcpy.o)
+ .text          0x00000000      0x168 C:/PROGRA~2/ARMGNU~1/142BCE~1.3RE/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7-m/nofp\libgcc.a(_arm_mulsf3.o)
+ .data          0x00000000        0x0 C:/PROGRA~2/ARMGNU~1/142BCE~1.3RE/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7-m/nofp\libgcc.a(_arm_mulsf3.o)
+ .bss           0x00000000        0x0 C:/PROGRA~2/ARMGNU~1/142BCE~1.3RE/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7-m/nofp\libgcc.a(_arm_mulsf3.o)
+ .debug_line_str
+                0x00000000       0xca C:/PROGRA~2/ARMGNU~1/142BCE~1.3RE/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7-m/nofp\libgcc.a(_arm_mulsf3.o)
+ .debug_frame   0x00000000       0x24 C:/PROGRA~2/ARMGNU~1/142BCE~1.3RE/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7-m/nofp\libgcc.a(_arm_mulsf3.o)
+ .ARM.attributes
+                0x00000000       0x1d C:/PROGRA~2/ARMGNU~1/142BCE~1.3RE/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7-m/nofp\libgcc.a(_arm_mulsf3.o)
+ .data          0x00000000        0x0 C:/PROGRA~2/ARMGNU~1/142BCE~1.3RE/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
+ .bss           0x00000000        0x0 C:/PROGRA~2/ARMGNU~1/142BCE~1.3RE/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
+ .data          0x00000000        0x0 C:/PROGRA~2/ARMGNU~1/142BCE~1.3RE/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivsf3.o)
+ .bss           0x00000000        0x0 C:/PROGRA~2/ARMGNU~1/142BCE~1.3RE/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivsf3.o)
+ .data          0x00000000        0x0 C:/PROGRA~2/ARMGNU~1/142BCE~1.3RE/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7-m/nofp\libgcc.a(_arm_cmpsf2.o)
+ .bss           0x00000000        0x0 C:/PROGRA~2/ARMGNU~1/142BCE~1.3RE/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7-m/nofp\libgcc.a(_arm_cmpsf2.o)
+ .data          0x00000000        0x0 C:/PROGRA~2/ARMGNU~1/142BCE~1.3RE/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7-m/nofp\libgcc.a(_arm_fixsfsi.o)
+ .bss           0x00000000        0x0 C:/PROGRA~2/ARMGNU~1/142BCE~1.3RE/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7-m/nofp\libgcc.a(_arm_fixsfsi.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc.o)
+ .text          0x00000000        0x0 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc.o)
+ .data          0x00000000        0x0 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc.o)
+ .bss           0x00000000        0x0 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc.o)
+ .text.adc_start_conversion_direct
+                0x00000000       0x10 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc.o)
+ .text.adc_set_dual_mode
+                0x00000000       0x14 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc.o)
+ .text.adc_enable_temperature_sensor
+                0x00000000       0x14 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc.o)
+ .text.adc_disable_temperature_sensor
+                0x00000000       0x14 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc.o)
+ .text.adc_disable_external_trigger_regular
+                0x00000000        0xa C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc.o)
+ .text.adc_enable_external_trigger_injected
+                0x00000000       0x14 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc.o)
+ .text.adc_disable_external_trigger_injected
+                0x00000000        0xa C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc.o)
+ .text.adc_calibration
+                0x00000000       0x14 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc.o)
+ .text.adc_set_sample_time
+                0x00000000       0x34 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .text          0x00000000        0x0 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .data          0x00000000        0x0 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .bss           0x00000000        0x0 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_enable_analog_watchdog_regular
+                0x00000000        0xa C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_disable_analog_watchdog_regular
+                0x00000000        0xa C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_enable_analog_watchdog_injected
+                0x00000000        0xa C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_disable_analog_watchdog_injected
+                0x00000000        0xa C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_enable_discontinuous_mode_regular
+                0x00000000       0x18 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_disable_discontinuous_mode_regular
+                0x00000000        0xa C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_enable_discontinuous_mode_injected
+                0x00000000        0xa C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_disable_discontinuous_mode_injected
+                0x00000000        0xa C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_enable_automatic_injected_group_conversion
+                0x00000000       0x12 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_disable_automatic_injected_group_conversion
+                0x00000000        0xa C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_enable_analog_watchdog_on_all_channels
+                0x00000000        0xa C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_enable_analog_watchdog_on_selected_channel
+                0x00000000       0x18 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_enable_scan_mode
+                0x00000000        0xa C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_enable_eoc_interrupt_injected
+                0x00000000        0xa C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_disable_eoc_interrupt_injected
+                0x00000000        0xa C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_enable_awd_interrupt
+                0x00000000        0xa C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_disable_awd_interrupt
+                0x00000000        0xa C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_enable_eoc_interrupt
+                0x00000000        0xa C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_disable_eoc_interrupt
+                0x00000000        0xa C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_set_left_aligned
+                0x00000000        0xa C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_eoc  0x00000000        0x8 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_eoc_injected
+                0x00000000        0x8 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_read_regular
+                0x00000000        0x4 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_read_injected
+                0x00000000       0x24 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_set_continuous_conversion_mode
+                0x00000000        0xa C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_set_watchdog_high_threshold
+                0x00000000        0x8 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_set_watchdog_low_threshold
+                0x00000000        0x8 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_set_injected_sequence
+                0x00000000       0x26 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_set_injected_offset
+                0x00000000       0x1e C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_start_conversion_injected
+                0x00000000       0x14 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_disable_dma
+                0x00000000        0xa C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_get_flag
+                0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .text.adc_clear_flag
+                0x00000000        0x6 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .debug_macro   0x00000000      0xac0 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .debug_macro   0x00000000       0x1c C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .debug_macro   0x00000000       0x22 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .debug_macro   0x00000000       0x56 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .debug_macro   0x00000000       0x51 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .debug_macro   0x00000000      0x103 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .debug_macro   0x00000000       0x6a C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .debug_macro   0x00000000      0x1df C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .debug_macro   0x00000000       0x22 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .debug_macro   0x00000000       0xe8 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .debug_macro   0x00000000       0x76 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .debug_macro   0x00000000      0x1b4 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .debug_macro   0x00000000      0x449 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .debug_macro   0x00000000      0x456 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+ .text          0x00000000        0x0 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+ .data          0x00000000        0x0 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+ .bss           0x00000000        0x0 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+ .text.dma_enable_mem2mem_mode
+                0x00000000       0x1a C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+ .text.dma_set_priority
+                0x00000000       0x18 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+ .text.dma_disable_memory_increment_mode
+                0x00000000       0x12 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+ .text.dma_enable_peripheral_increment_mode
+                0x00000000       0x12 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+ .text.dma_disable_peripheral_increment_mode
+                0x00000000       0x12 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+ .text.dma_enable_circular_mode
+                0x00000000       0x1a C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+ .text.dma_set_read_from_memory
+                0x00000000       0x12 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+ .text.dma_enable_transfer_error_interrupt
+                0x00000000       0x12 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+ .text.dma_disable_transfer_error_interrupt
+                0x00000000       0x12 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+ .text.dma_enable_half_transfer_interrupt
+                0x00000000       0x12 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+ .text.dma_disable_half_transfer_interrupt
+                0x00000000       0x12 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+ .text.dma_disable_transfer_complete_interrupt
+                0x00000000       0x12 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+ .text.dma_get_number_of_data
+                0x00000000        0xe C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+ .debug_macro   0x00000000      0xac0 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+ .debug_macro   0x00000000       0x1c C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+ .debug_macro   0x00000000       0x22 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+ .debug_macro   0x00000000       0x56 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+ .debug_macro   0x00000000       0x51 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+ .debug_macro   0x00000000      0x103 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+ .debug_macro   0x00000000       0x6a C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+ .debug_macro   0x00000000      0x1df C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+ .debug_macro   0x00000000       0x22 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+ .debug_macro   0x00000000       0xe8 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+ .debug_macro   0x00000000       0x76 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+ .debug_macro   0x00000000      0x1b4 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio.o)
+ .text          0x00000000        0x0 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio.o)
+ .data          0x00000000        0x0 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio.o)
+ .bss           0x00000000        0x0 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio.o)
+ .text.gpio_set_eventout
+                0x00000000       0x10 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio.o)
+ .text.gpio_primary_remap
+                0x00000000       0x14 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio.o)
+ .text.gpio_secondary_remap
+                0x00000000       0x10 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio.o)
+ .debug_macro   0x00000000      0xac0 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio.o)
+ .debug_macro   0x00000000       0x1c C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio.o)
+ .debug_macro   0x00000000       0x22 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio.o)
+ .debug_macro   0x00000000       0x56 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio.o)
+ .debug_macro   0x00000000       0x51 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio.o)
+ .debug_macro   0x00000000      0x103 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio.o)
+ .debug_macro   0x00000000       0x6a C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio.o)
+ .debug_macro   0x00000000      0x1df C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio.o)
+ .debug_macro   0x00000000       0x22 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio.o)
+ .debug_macro   0x00000000       0xe8 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio.o)
+ .debug_macro   0x00000000       0x76 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio.o)
+ .debug_macro   0x00000000      0x1b4 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio_common_all.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio_common_all.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio_common_all.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio_common_all.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio_common_all.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio_common_all.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio_common_all.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio_common_all.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio_common_all.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio_common_all.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio_common_all.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio_common_all.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio_common_all.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio_common_all.o)
+ .text          0x00000000        0x0 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio_common_all.o)
+ .data          0x00000000        0x0 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio_common_all.o)
+ .bss           0x00000000        0x0 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio_common_all.o)
+ .text.gpio_set
+                0x00000000        0x4 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio_common_all.o)
+ .text.gpio_clear
+                0x00000000        0x6 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio_common_all.o)
+ .text.gpio_get
+                0x00000000        0x6 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio_common_all.o)
+ .text.gpio_port_read
+                0x00000000        0x6 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio_common_all.o)
+ .text.gpio_port_write
+                0x00000000        0x4 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio_common_all.o)
+ .text.gpio_port_config_lock
+                0x00000000       0x10 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_macro   0x00000000      0xac0 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_macro   0x00000000       0x1c C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_macro   0x00000000       0x22 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_macro   0x00000000       0x56 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_macro   0x00000000       0x51 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_macro   0x00000000      0x103 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_macro   0x00000000       0x6a C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_macro   0x00000000      0x1df C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_macro   0x00000000       0x22 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_macro   0x00000000       0xe8 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_macro   0x00000000       0x76 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_macro   0x00000000      0x1b4 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_macro   0x00000000       0x76 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_macro   0x00000000      0xe2e C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio_common_all.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .text          0x00000000        0x0 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .data          0x00000000        0x0 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .bss           0x00000000        0x0 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_osc_ready_int_clear
+                0x00000000       0x5c C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_osc_ready_int_enable
+                0x00000000       0x5c C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_osc_ready_int_disable
+                0x00000000       0x5c C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_osc_ready_int_flag
+                0x00000000       0x54 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_css_int_clear
+                0x00000000       0x10 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_css_int_flag
+                0x00000000       0x10 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_osc_off
+                0x00000000       0x60 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_css_enable
+                0x00000000       0x10 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_css_disable
+                0x00000000       0x10 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_rtc_clock_enabled_flag
+                0x00000000       0x10 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_enable_rtc_clock
+                0x00000000       0x10 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_set_rtc_clock_source
+                0x00000000       0x84 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_system_clock_source
+                0x00000000       0x10 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_clock_setup_in_hsi_out_64mhz
+                0x00000000       0x70 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_clock_setup_in_hsi_out_48mhz
+                0x00000000       0x7c C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_clock_setup_in_hsi_out_24mhz
+                0x00000000       0x60 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_clock_setup_in_hse_8mhz_out_24mhz
+                0x00000000       0x78 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_clock_setup_in_hse_8mhz_out_72mhz
+                0x00000000       0x88 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_clock_setup_in_hse_12mhz_out_72mhz
+                0x00000000       0x88 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_clock_setup_in_hse_16mhz_out_72mhz
+                0x00000000       0x88 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_clock_setup_in_hse_25mhz_out_72mhz
+                0x00000000       0xa8 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_backupdomain_reset
+                0x00000000       0x18 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_get_usart_clk_freq
+                0x00000000       0x1c C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_get_timer_clk_freq
+                0x00000000       0x34 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .text.rcc_get_i2c_clk_freq
+                0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .rodata.rcc_hsi_configs
+                0x00000000       0x54 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x00000000      0xac0 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x00000000       0x1c C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x00000000       0x22 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x00000000       0x56 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x00000000       0x51 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x00000000      0x103 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x00000000       0x6a C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x00000000      0x1df C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x00000000       0x22 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x00000000       0xe8 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x00000000       0x76 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x00000000      0x1b4 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc_common_all.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc_common_all.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc_common_all.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc_common_all.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc_common_all.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc_common_all.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc_common_all.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc_common_all.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc_common_all.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc_common_all.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc_common_all.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc_common_all.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc_common_all.o)
+ .text          0x00000000        0x0 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc_common_all.o)
+ .data          0x00000000        0x0 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc_common_all.o)
+ .bss           0x00000000        0x0 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc_common_all.o)
+ .text.rcc_peripheral_enable_clock
+                0x00000000        0x8 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc_common_all.o)
+ .text.rcc_peripheral_disable_clock
+                0x00000000        0xa C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc_common_all.o)
+ .text.rcc_peripheral_reset
+                0x00000000        0x8 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc_common_all.o)
+ .text.rcc_peripheral_clear_reset
+                0x00000000        0xa C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc_common_all.o)
+ .text.rcc_periph_clock_disable
+                0x00000000       0x1c C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc_common_all.o)
+ .text.rcc_periph_reset_hold
+                0x00000000        0x4 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc_common_all.o)
+ .text.rcc_periph_reset_release
+                0x00000000        0x4 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc_common_all.o)
+ .text.rcc_set_mco
+                0x00000000       0x14 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc_common_all.o)
+ .text.rcc_osc_bypass_enable
+                0x00000000       0x28 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc_common_all.o)
+ .text.rcc_osc_bypass_disable
+                0x00000000       0x28 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc_common_all.o)
+ .text.rcc_get_div_from_hpre
+                0x00000000       0x18 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_macro   0x00000000      0xac0 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_macro   0x00000000       0x1c C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_macro   0x00000000       0x22 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_macro   0x00000000       0x56 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_macro   0x00000000       0x51 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_macro   0x00000000      0x103 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_macro   0x00000000       0x6a C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_macro   0x00000000      0x1df C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_macro   0x00000000       0x22 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_macro   0x00000000       0xe8 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_macro   0x00000000       0x76 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_macro   0x00000000      0x1b4 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_macro   0x00000000      0x8c6 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc_common_all.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text          0x00000000        0x0 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .data          0x00000000        0x0 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .bss           0x00000000        0x0 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_enable_irq
+                0x00000000        0x8 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_disable_irq
+                0x00000000        0xa C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_interrupt_source
+                0x00000000       0x16 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_get_flag
+                0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_clear_flag
+                0x00000000        0x6 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_clock_division
+                0x00000000       0x14 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_enable_preload
+                0x00000000        0xa C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_disable_preload
+                0x00000000        0xa C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_alignment
+                0x00000000       0x14 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_direction_up
+                0x00000000        0xa C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_direction_down
+                0x00000000        0xa C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_one_shot_mode
+                0x00000000        0xa C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_continuous_mode
+                0x00000000        0xa C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_update_on_any
+                0x00000000        0xa C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_update_on_overflow
+                0x00000000        0xa C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_enable_update_event
+                0x00000000        0xa C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_disable_update_event
+                0x00000000        0xa C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_disable_counter
+                0x00000000        0xa C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_output_idle_state
+                0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_reset_output_idle_state
+                0x00000000        0xe C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_ti1_ch123_xor
+                0x00000000        0xa C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_ti1_ch1
+                0x00000000        0xa C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_master_mode
+                0x00000000       0x10 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_dma_on_compare_event
+                0x00000000        0xa C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_dma_on_update_event
+                0x00000000        0xa C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_enable_compare_control_update_on_trigger
+                0x00000000        0xa C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_disable_compare_control_update_on_trigger
+                0x00000000        0xa C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_enable_preload_complementry_enable_bits
+                0x00000000        0xa C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_disable_preload_complementry_enable_bits
+                0x00000000        0xa C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_repetition_counter
+                0x00000000        0x4 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_enable_oc_clear
+                0x00000000       0x34 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_disable_oc_clear
+                0x00000000       0x34 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_oc_fast_mode
+                0x00000000       0x34 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_oc_slow_mode
+                0x00000000       0x34 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_enable_oc_preload
+                0x00000000       0x34 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_disable_oc_preload
+                0x00000000       0x34 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_oc_polarity_high
+                0x00000000       0x4a C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_oc_polarity_low
+                0x00000000       0x4a C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_disable_oc_output
+                0x00000000       0x4a C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_oc_idle_state_set
+                0x00000000       0x4a C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_oc_idle_state_unset
+                0x00000000       0x4a C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_enable_break_main_output
+                0x00000000        0xa C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_disable_break_main_output
+                0x00000000        0xa C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_enable_break_automatic_output
+                0x00000000        0xa C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_disable_break_automatic_output
+                0x00000000        0xa C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_break_polarity_high
+                0x00000000        0xa C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_break_polarity_low
+                0x00000000        0xa C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_enable_break
+                0x00000000        0xa C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_disable_break
+                0x00000000        0xa C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_enabled_off_state_in_run_mode
+                0x00000000        0xa C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_disabled_off_state_in_run_mode
+                0x00000000        0xa C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_enabled_off_state_in_idle_mode
+                0x00000000        0xa C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_disabled_off_state_in_idle_mode
+                0x00000000        0xa C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_break_lock
+                0x00000000        0x8 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_deadtime
+                0x00000000        0x4 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_generate_event
+                0x00000000        0x8 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_get_counter
+                0x00000000        0x4 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_set_counter
+                0x00000000        0x4 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_ic_set_filter
+                0x00000000       0x50 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_ic_set_prescaler
+                0x00000000       0x50 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_ic_set_input
+                0x00000000       0x62 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_ic_enable
+                0x00000000        0xe C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_ic_disable
+                0x00000000       0x10 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_slave_set_filter
+                0x00000000       0x12 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_slave_set_prescaler
+                0x00000000       0x12 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_slave_set_polarity
+                0x00000000       0x12 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_slave_set_mode
+                0x00000000       0x10 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_slave_set_trigger
+                0x00000000       0x10 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .text.timer_slave_set_extclockmode2
+                0x00000000       0x12 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_macro   0x00000000      0xac0 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_macro   0x00000000       0x1c C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_macro   0x00000000       0x22 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_macro   0x00000000       0x56 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_macro   0x00000000       0x51 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_macro   0x00000000      0x103 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_macro   0x00000000       0x6a C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_macro   0x00000000      0x1df C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_macro   0x00000000       0x22 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_macro   0x00000000       0xe8 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_macro   0x00000000       0x76 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_macro   0x00000000      0x1b4 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_macro   0x00000000      0x8c6 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(vector.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(vector.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(vector.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(vector.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(vector.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(vector.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(vector.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(vector.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(vector.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(vector.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(vector.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(vector.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(vector.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(vector.o)
+ .text          0x00000000        0x0 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(vector.o)
+ .data          0x00000000        0x0 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(vector.o)
+ .bss           0x00000000        0x0 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(vector.o)
+ .debug_macro   0x00000000      0xac0 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(vector.o)
+ .debug_macro   0x00000000       0x76 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(vector.o)
+ .debug_macro   0x00000000       0x1c C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(vector.o)
+ .debug_macro   0x00000000       0x22 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(vector.o)
+ .debug_macro   0x00000000       0x56 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(vector.o)
+ .debug_macro   0x00000000       0x51 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(vector.o)
+ .debug_macro   0x00000000      0x103 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(vector.o)
+ .debug_macro   0x00000000       0x6a C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(vector.o)
+ .debug_macro   0x00000000      0x1df C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(vector.o)
+ .debug_macro   0x00000000       0x22 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(vector.o)
+ .debug_macro   0x00000000       0xe8 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(vector.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(nvic.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(nvic.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(nvic.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(nvic.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(nvic.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(nvic.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(nvic.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(nvic.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(nvic.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(nvic.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(nvic.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(nvic.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(nvic.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(nvic.o)
+ .text          0x00000000        0x0 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(nvic.o)
+ .data          0x00000000        0x0 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(nvic.o)
+ .bss           0x00000000        0x0 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(nvic.o)
+ .text.nvic_disable_irq
+                0x00000000       0x18 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(nvic.o)
+ .text.nvic_get_pending_irq
+                0x00000000       0x22 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(nvic.o)
+ .text.nvic_set_pending_irq
+                0x00000000       0x18 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(nvic.o)
+ .text.nvic_clear_pending_irq
+                0x00000000       0x18 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(nvic.o)
+ .text.nvic_get_irq_enabled
+                0x00000000       0x22 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(nvic.o)
+ .text.nvic_get_active_irq
+                0x00000000       0x22 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(nvic.o)
+ .text.nvic_generate_software_interrupt
+                0x00000000       0x14 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(nvic.o)
+ .debug_macro   0x00000000      0xac0 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(nvic.o)
+ .debug_macro   0x00000000       0x1c C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(nvic.o)
+ .debug_macro   0x00000000       0x22 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(nvic.o)
+ .debug_macro   0x00000000       0x56 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(nvic.o)
+ .debug_macro   0x00000000       0x51 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(nvic.o)
+ .debug_macro   0x00000000      0x103 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(nvic.o)
+ .debug_macro   0x00000000       0x6a C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(nvic.o)
+ .debug_macro   0x00000000      0x1df C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(nvic.o)
+ .debug_macro   0x00000000       0x22 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(nvic.o)
+ .debug_macro   0x00000000       0xe8 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(nvic.o)
+ .debug_macro   0x00000000       0x76 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(nvic.o)
+ .debug_macro   0x00000000      0x1a2 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(nvic.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(assert.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(assert.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(assert.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(assert.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(assert.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(assert.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(assert.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(assert.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(assert.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(assert.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(assert.o)
+ .text          0x00000000        0x0 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(assert.o)
+ .data          0x00000000        0x0 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(assert.o)
+ .bss           0x00000000        0x0 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(assert.o)
+ .text.cm3_assert_failed
+                0x00000000        0x2 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(assert.o)
+ .text.cm3_assert_failed_verbose
+                0x00000000        0x6 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(assert.o)
+ .debug_info    0x00000000      0x101 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(assert.o)
+ .debug_abbrev  0x00000000       0x94 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(assert.o)
+ .debug_loclists
+                0x00000000       0x80 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(assert.o)
+ .debug_aranges
+                0x00000000       0x28 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(assert.o)
+ .debug_rnglists
+                0x00000000       0x19 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(assert.o)
+ .debug_macro   0x00000000       0x89 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(assert.o)
+ .debug_macro   0x00000000      0xac0 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(assert.o)
+ .debug_macro   0x00000000       0x1c C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(assert.o)
+ .debug_macro   0x00000000       0x22 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(assert.o)
+ .debug_macro   0x00000000       0x56 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(assert.o)
+ .debug_macro   0x00000000       0x51 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(assert.o)
+ .debug_macro   0x00000000      0x103 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(assert.o)
+ .debug_macro   0x00000000       0x6a C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(assert.o)
+ .debug_macro   0x00000000      0x1df C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(assert.o)
+ .debug_macro   0x00000000       0x22 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(assert.o)
+ .debug_macro   0x00000000       0xe8 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(assert.o)
+ .debug_macro   0x00000000       0x16 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(assert.o)
+ .debug_line    0x00000000      0x20d C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(assert.o)
+ .debug_str     0x00000000     0x41e2 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(assert.o)
+ .comment       0x00000000       0x47 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(assert.o)
+ .debug_frame   0x00000000       0x38 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(assert.o)
+ .ARM.attributes
+                0x00000000       0x2d C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(assert.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(flash_common_all.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(flash_common_all.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(flash_common_all.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(flash_common_all.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(flash_common_all.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(flash_common_all.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(flash_common_all.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(flash_common_all.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(flash_common_all.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(flash_common_all.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(flash_common_all.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(flash_common_all.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(flash_common_all.o)
+ .group         0x00000000        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(flash_common_all.o)
+ .text          0x00000000        0x0 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(flash_common_all.o)
+ .data          0x00000000        0x0 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(flash_common_all.o)
+ .bss           0x00000000        0x0 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(flash_common_all.o)
+ .text.flash_prefetch_enable
+                0x00000000       0x10 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(flash_common_all.o)
+ .text.flash_prefetch_disable
+                0x00000000       0x10 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(flash_common_all.o)
+ .text.flash_unlock_option_bytes
+                0x00000000       0x18 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(flash_common_all.o)
+ .debug_macro   0x00000000      0xac0 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(flash_common_all.o)
+ .debug_macro   0x00000000       0x1c C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(flash_common_all.o)
+ .debug_macro   0x00000000       0x22 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(flash_common_all.o)
+ .debug_macro   0x00000000       0x56 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(flash_common_all.o)
+ .debug_macro   0x00000000       0x51 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(flash_common_all.o)
+ .debug_macro   0x00000000      0x103 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(flash_common_all.o)
+ .debug_macro   0x00000000       0x6a C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(flash_common_all.o)
+ .debug_macro   0x00000000      0x1df C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(flash_common_all.o)
+ .debug_macro   0x00000000       0x22 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(flash_common_all.o)
+ .debug_macro   0x00000000       0xe8 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(flash_common_all.o)
+ .debug_macro   0x00000000       0x76 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(flash_common_all.o)
+ .debug_macro   0x00000000      0x1b4 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(flash_common_all.o)
+ .debug_macro   0x00000000       0xee C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(flash_common_all.o)
+ .debug_macro   0x00000000       0x82 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(flash_common_all.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x08000000         0x00010000         xr
+ram              0x20000000         0x00005000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD main.o
+LOAD rtos/heap_4.o
+LOAD rtos/list.o
+LOAD rtos/port.o
+LOAD rtos/queue.o
+LOAD rtos/tasks.o
+LOAD rtos/opencm3.o
+LOAD config.o
+LOAD app_task.o
+LOAD pid_controller.o
+START GROUP
+LOAD C:/PROGRA~2/ARMGNU~1/142BCE~1.3RE/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a
+LOAD C:/PROGRA~2/ARMGNU~1/142BCE~1.3RE/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7-m/nofp\libgcc.a
+LOAD C:/PROGRA~2/ARMGNU~1/142BCE~1.3RE/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a
+END GROUP
+LOAD C:/msys64/home/Luis/stm32f103c8t6/rtos/libwwg\libwwg.a
+LOAD C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a
+START GROUP
+LOAD C:/PROGRA~2/ARMGNU~1/142BCE~1.3RE/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7-m/nofp\libgcc.a
+LOAD C:/PROGRA~2/ARMGNU~1/142BCE~1.3RE/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a
+END GROUP
+START GROUP
+LOAD C:/PROGRA~2/ARMGNU~1/142BCE~1.3RE/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7-m/nofp\libgcc.a
+LOAD C:/PROGRA~2/ARMGNU~1/142BCE~1.3RE/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a
+LOAD C:/PROGRA~2/ARMGNU~1/142BCE~1.3RE/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a
+END GROUP
+
+.text           0x08000000     0x287c
+ *(.vectors)
+ .vectors       0x08000000      0x150 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(vector.o)
+                0x08000000                vector_table
+ *(.text*)
+ .text.error_handler
+                0x08000150       0x28 main.o
+ .text.startup.main
+                0x08000178       0x84 main.o
+                0x08000178                main
+ .text.prvInsertBlockIntoFreeList
+                0x080001fc       0x4c rtos/heap_4.o
+ .text.pvPortMalloc
+                0x08000248      0x108 rtos/heap_4.o
+                0x08000248                pvPortMalloc
+ .text.vPortFree
+                0x08000350       0x58 rtos/heap_4.o
+                0x08000350                vPortFree
+ .text.vListInitialise
+                0x080003a8       0x16 rtos/list.o
+                0x080003a8                vListInitialise
+ .text.vListInitialiseItem
+                0x080003be        0x6 rtos/list.o
+                0x080003be                vListInitialiseItem
+ .text.vListInsertEnd
+                0x080003c4       0x16 rtos/list.o
+                0x080003c4                vListInsertEnd
+ .text.vListInsert
+                0x080003da       0x2e rtos/list.o
+                0x080003da                vListInsert
+ .text.uxListRemove
+                0x08000408       0x20 rtos/list.o
+                0x08000408                uxListRemove
+ .text.prvTaskExitError
+                0x08000428       0x20 rtos/port.o
+ .text.prvPortStartFirstTask
+                0x08000448       0x20 rtos/port.o
+ .text.pxPortInitialiseStack
+                0x08000468       0x24 rtos/port.o
+                0x08000468                pxPortInitialiseStack
+ *fill*         0x0800048c        0x4 
+ .text.vPortSVCHandler
+                0x08000490       0x24 rtos/port.o
+                0x08000490                vPortSVCHandler
+ .text.vPortEnterCritical
+                0x080004b4       0x20 rtos/port.o
+                0x080004b4                vPortEnterCritical
+ .text.vPortExitCritical
+                0x080004d4       0x14 rtos/port.o
+                0x080004d4                vPortExitCritical
+ *fill*         0x080004e8        0x8 
+ .text.xPortPendSVHandler
+                0x080004f0       0x44 rtos/port.o
+                0x080004f0                xPortPendSVHandler
+ .text.xPortSysTickHandler
+                0x08000534       0x2c rtos/port.o
+                0x08000534                xPortSysTickHandler
+ .text.vPortSetupTimerInterrupt
+                0x08000560       0x16 rtos/port.o
+                0x08000560                vPortSetupTimerInterrupt
+ *fill*         0x08000576        0x2 
+ .text.xPortStartScheduler
+                0x08000578       0x3c rtos/port.o
+                0x08000578                xPortStartScheduler
+ .text.prvIsQueueEmpty
+                0x080005b4       0x16 rtos/queue.o
+ .text.prvCopyDataToQueue
+                0x080005ca       0x66 rtos/queue.o
+ .text.prvUnlockQueue
+                0x08000630       0x6c rtos/queue.o
+ .text.xQueueGenericReset
+                0x0800069c       0x7a rtos/queue.o
+                0x0800069c                xQueueGenericReset
+ .text.xQueueGenericCreate
+                0x08000716       0x44 rtos/queue.o
+                0x08000716                xQueueGenericCreate
+ .text.xQueueGenericSend
+                0x0800075a       0xfa rtos/queue.o
+                0x0800075a                xQueueGenericSend
+ .text.xQueueCreateMutex
+                0x08000854       0x24 rtos/queue.o
+                0x08000854                xQueueCreateMutex
+ .text.xQueueGiveFromISR
+                0x08000878       0x56 rtos/queue.o
+                0x08000878                xQueueGiveFromISR
+ .text.xQueueSemaphoreTake
+                0x080008ce      0x11c rtos/queue.o
+                0x080008ce                xQueueSemaphoreTake
+ *fill*         0x080009ea        0x2 
+ .text.prvAddCurrentTaskToDelayedList
+                0x080009ec       0xa0 rtos/tasks.o
+ .text.prvResetNextTaskUnblockTime
+                0x08000a8c       0x24 rtos/tasks.o
+ .text.prvIdleTask
+                0x08000ab0       0x68 rtos/tasks.o
+ .text.xTaskCreate
+                0x08000b18      0x1cc rtos/tasks.o
+                0x08000b18                xTaskCreate
+ .text.vTaskStartScheduler
+                0x08000ce4       0x64 rtos/tasks.o
+                0x08000ce4                vTaskStartScheduler
+ .text.vTaskSuspendAll
+                0x08000d48       0x10 rtos/tasks.o
+                0x08000d48                vTaskSuspendAll
+ .text.xTaskIncrementTick
+                0x08000d58      0x17c rtos/tasks.o
+                0x08000d58                xTaskIncrementTick
+ .text.xTaskResumeAll
+                0x08000ed4      0x168 rtos/tasks.o
+                0x08000ed4                xTaskResumeAll
+ .text.vTaskDelay
+                0x0800103c       0x2e rtos/tasks.o
+                0x0800103c                vTaskDelay
+ *fill*         0x0800106a        0x2 
+ .text.vTaskSwitchContext
+                0x0800106c       0x54 rtos/tasks.o
+                0x0800106c                vTaskSwitchContext
+ .text.vTaskSuspend
+                0x080010c0       0xbc rtos/tasks.o
+                0x080010c0                vTaskSuspend
+ .text.vTaskPlaceOnEventList
+                0x0800117c       0x20 rtos/tasks.o
+                0x0800117c                vTaskPlaceOnEventList
+ .text.xTaskRemoveFromEventList
+                0x0800119c       0xc0 rtos/tasks.o
+                0x0800119c                xTaskRemoveFromEventList
+ .text.vTaskInternalSetTimeOutState
+                0x0800125c       0x18 rtos/tasks.o
+                0x0800125c                vTaskInternalSetTimeOutState
+ .text.xTaskCheckForTimeOut
+                0x08001274       0x50 rtos/tasks.o
+                0x08001274                xTaskCheckForTimeOut
+ .text.vTaskMissedYield
+                0x080012c4        0xc rtos/tasks.o
+                0x080012c4                vTaskMissedYield
+ .text.xTaskPriorityInherit
+                0x080012d0       0xa0 rtos/tasks.o
+                0x080012d0                xTaskPriorityInherit
+ .text.xTaskPriorityDisinherit
+                0x08001370       0x74 rtos/tasks.o
+                0x08001370                xTaskPriorityDisinherit
+ .text.vTaskPriorityDisinheritAfterTimeout
+                0x080013e4       0x80 rtos/tasks.o
+                0x080013e4                vTaskPriorityDisinheritAfterTimeout
+ .text.pvTaskIncrementMutexHeldCount
+                0x08001464       0x18 rtos/tasks.o
+                0x08001464                pvTaskIncrementMutexHeldCount
+ .text.sv_call_handler
+                0x0800147c        0x4 rtos/opencm3.o
+                0x0800147c                sv_call_handler
+ .text.pend_sv_handler
+                0x08001480        0x4 rtos/opencm3.o
+                0x08001480                pend_sv_handler
+ .text.sys_tick_handler
+                0x08001484        0x4 rtos/opencm3.o
+                0x08001484                sys_tick_handler
+ .text.clock_setup
+                0x08001488       0x38 config.o
+                0x08001488                clock_setup
+ .text.gpio_setup
+                0x080014c0       0x34 config.o
+                0x080014c0                gpio_setup
+ .text.dma_setup
+                0x080014f4       0x78 config.o
+                0x080014f4                dma_setup
+ .text.adc_setup
+                0x0800156c       0x88 config.o
+                0x0800156c                adc_setup
+ .text.pwm_setup
+                0x080015f4       0x5a config.o
+                0x080015f4                pwm_setup
+ *fill*         0x0800164e        0x2 
+ .text.adc_start_scan
+                0x08001650       0x44 config.o
+                0x08001650                adc_start_scan
+ .text.dma1_channel1_isr
+                0x08001694       0x50 config.o
+                0x08001694                dma1_channel1_isr
+ .text.task_blink
+                0x080016e4       0x1c app_task.o
+                0x080016e4                task_blink
+ .text.task_control
+                0x08001700       0xa8 app_task.o
+                0x08001700                task_control
+ .text.PID_Init
+                0x080017a8       0x2c pid_controller.o
+                0x080017a8                PID_Init
+ .text.PID_Calculate
+                0x080017d4       0x8a pid_controller.o
+                0x080017d4                PID_Calculate
+ *fill*         0x0800185e        0x2 
+ .text          0x08001860       0xec C:/PROGRA~2/ARMGNU~1/142BCE~1.3RE/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-memcpy.o)
+                0x08001860                memcpy
+ .text          0x0800194c      0x21c C:/PROGRA~2/ARMGNU~1/142BCE~1.3RE/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
+                0x0800194c                __aeabi_frsub
+                0x08001954                __subsf3
+                0x08001954                __aeabi_fsub
+                0x08001958                __aeabi_fadd
+                0x08001958                __addsf3
+                0x08001ab8                __aeabi_ui2f
+                0x08001ab8                __floatunsisf
+                0x08001ac0                __aeabi_i2f
+                0x08001ac0                __floatsisf
+                0x08001adc                __aeabi_ul2f
+                0x08001adc                __floatundisf
+                0x08001aec                __aeabi_l2f
+                0x08001aec                __floatdisf
+ .text          0x08001b68      0x2a0 C:/PROGRA~2/ARMGNU~1/142BCE~1.3RE/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivsf3.o)
+                0x08001b68                __mulsf3
+                0x08001b68                __aeabi_fmul
+                0x08001cd0                __aeabi_fdiv
+                0x08001cd0                __divsf3
+ .text          0x08001e08       0xec C:/PROGRA~2/ARMGNU~1/142BCE~1.3RE/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7-m/nofp\libgcc.a(_arm_cmpsf2.o)
+                0x08001e08                __gesf2
+                0x08001e08                __gtsf2
+                0x08001e10                __lesf2
+                0x08001e10                __ltsf2
+                0x08001e18                __nesf2
+                0x08001e18                __eqsf2
+                0x08001e18                __cmpsf2
+                0x08001e78                __aeabi_cfrcmple
+                0x08001e80                __aeabi_cfcmpeq
+                0x08001e80                __aeabi_cfcmple
+                0x08001e90                __aeabi_fcmpeq
+                0x08001ea4                __aeabi_fcmplt
+                0x08001eb8                __aeabi_fcmple
+                0x08001ecc                __aeabi_fcmpge
+                0x08001ee0                __aeabi_fcmpgt
+ .text          0x08001ef4       0x4c C:/PROGRA~2/ARMGNU~1/142BCE~1.3RE/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7-m/nofp\libgcc.a(_arm_fixsfsi.o)
+                0x08001ef4                __aeabi_f2iz
+                0x08001ef4                __fixsfsi
+ .text.adc_power_on
+                0x08001f40       0x10 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc.o)
+                0x08001f40                adc_power_on
+ .text.adc_enable_external_trigger_regular
+                0x08001f50       0x14 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc.o)
+                0x08001f50                adc_enable_external_trigger_regular
+ .text.adc_reset_calibration
+                0x08001f64       0x14 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc.o)
+                0x08001f64                adc_reset_calibration
+ .text.adc_calibrate_async
+                0x08001f78        0xa C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc.o)
+                0x08001f78                adc_calibrate_async
+ .text.adc_is_calibrating
+                0x08001f82        0x8 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc.o)
+                0x08001f82                adc_is_calibrating
+ .text.adc_calibrate
+                0x08001f8a       0x14 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc.o)
+                0x08001f8a                adc_calibrate
+ .text.adc_set_sample_time_on_all_channels
+                0x08001f9e       0x2a C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc.o)
+                0x08001f9e                adc_set_sample_time_on_all_channels
+ .text.adc_power_off
+                0x08001fc8        0xa C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+                0x08001fc8                adc_power_off
+ .text.adc_disable_scan_mode
+                0x08001fd2        0xa C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+                0x08001fd2                adc_disable_scan_mode
+ .text.adc_set_right_aligned
+                0x08001fdc        0xa C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+                0x08001fdc                adc_set_right_aligned
+ .text.adc_set_single_conversion_mode
+                0x08001fe6        0xa C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+                0x08001fe6                adc_set_single_conversion_mode
+ .text.adc_set_regular_sequence
+                0x08001ff0       0x5c C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+                0x08001ff0                adc_set_regular_sequence
+ .text.adc_start_conversion_regular
+                0x0800204c       0x14 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+                0x0800204c                adc_start_conversion_regular
+ .text.adc_enable_dma
+                0x08002060        0xa C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+                0x08002060                adc_enable_dma
+ .text.dma_channel_reset
+                0x0800206a       0x20 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+                0x0800206a                dma_channel_reset
+ .text.dma_clear_interrupt_flags
+                0x0800208a        0xa C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+                0x0800208a                dma_clear_interrupt_flags
+ .text.dma_get_interrupt_flag
+                0x08002094       0x12 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+                0x08002094                dma_get_interrupt_flag
+ .text.dma_set_memory_size
+                0x080020a6       0x18 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+                0x080020a6                dma_set_memory_size
+ .text.dma_set_peripheral_size
+                0x080020be       0x18 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+                0x080020be                dma_set_peripheral_size
+ .text.dma_enable_memory_increment_mode
+                0x080020d6       0x12 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+                0x080020d6                dma_enable_memory_increment_mode
+ .text.dma_set_read_from_peripheral
+                0x080020e8       0x12 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+                0x080020e8                dma_set_read_from_peripheral
+ .text.dma_enable_transfer_complete_interrupt
+                0x080020fa       0x12 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+                0x080020fa                dma_enable_transfer_complete_interrupt
+ .text.dma_enable_channel
+                0x0800210c       0x12 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+                0x0800210c                dma_enable_channel
+ .text.dma_disable_channel
+                0x0800211e       0x12 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+                0x0800211e                dma_disable_channel
+ .text.dma_set_peripheral_address
+                0x08002130       0x12 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+                0x08002130                dma_set_peripheral_address
+ .text.dma_set_memory_address
+                0x08002142       0x12 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+                0x08002142                dma_set_memory_address
+ .text.dma_set_number_of_data
+                0x08002154        0xc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+                0x08002154                dma_set_number_of_data
+ .text.gpio_set_mode
+                0x08002160       0x6a C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio.o)
+                0x08002160                gpio_set_mode
+ .text.gpio_toggle
+                0x080021ca       0x12 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio_common_all.o)
+                0x080021ca                gpio_toggle
+ .text.rcc_is_osc_ready
+                0x080021dc       0x58 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+                0x080021dc                rcc_is_osc_ready
+ .text.rcc_wait_for_osc_ready
+                0x08002234       0x10 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+                0x08002234                rcc_wait_for_osc_ready
+ .text.rcc_osc_on
+                0x08002244       0x60 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+                0x08002244                rcc_osc_on
+ .text.rcc_set_sysclk_source
+                0x080022a4       0x14 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+                0x080022a4                rcc_set_sysclk_source
+ .text.rcc_set_pll_multiplication_factor
+                0x080022b8       0x14 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+                0x080022b8                rcc_set_pll_multiplication_factor
+ .text.rcc_set_pll2_multiplication_factor
+                0x080022cc       0x14 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+                0x080022cc                rcc_set_pll2_multiplication_factor
+ .text.rcc_set_pll3_multiplication_factor
+                0x080022e0       0x14 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+                0x080022e0                rcc_set_pll3_multiplication_factor
+ .text.rcc_set_pll_source
+                0x080022f4       0x14 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+                0x080022f4                rcc_set_pll_source
+ .text.rcc_set_pllxtpre
+                0x08002308       0x14 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+                0x08002308                rcc_set_pllxtpre
+ .text.rcc_set_adcpre
+                0x0800231c       0x14 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+                0x0800231c                rcc_set_adcpre
+ .text.rcc_set_ppre2
+                0x08002330       0x14 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+                0x08002330                rcc_set_ppre2
+ .text.rcc_set_ppre1
+                0x08002344       0x14 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+                0x08002344                rcc_set_ppre1
+ .text.rcc_set_hpre
+                0x08002358       0x14 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+                0x08002358                rcc_set_hpre
+ .text.rcc_set_usbpre
+                0x0800236c       0x18 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+                0x0800236c                rcc_set_usbpre
+ .text.rcc_set_prediv1
+                0x08002384       0x14 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+                0x08002384                rcc_set_prediv1
+ .text.rcc_set_prediv2
+                0x08002398       0x14 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+                0x08002398                rcc_set_prediv2
+ .text.rcc_set_prediv1_source
+                0x080023ac       0x18 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+                0x080023ac                rcc_set_prediv1_source
+ .text.rcc_clock_setup_pll
+                0x080023c4       0xbc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+                0x080023c4                rcc_clock_setup_pll
+ .text.rcc_periph_clock_enable
+                0x08002480       0x1a C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc_common_all.o)
+                0x08002480                rcc_periph_clock_enable
+ .text.rcc_periph_reset_pulse
+                0x0800249a       0x22 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc_common_all.o)
+                0x0800249a                rcc_periph_reset_pulse
+ .text.timer_set_mode
+                0x080024bc       0x12 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+                0x080024bc                timer_set_mode
+ .text.timer_enable_counter
+                0x080024ce        0xa C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+                0x080024ce                timer_enable_counter
+ .text.timer_set_prescaler
+                0x080024d8        0x4 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+                0x080024d8                timer_set_prescaler
+ .text.timer_set_period
+                0x080024dc        0x4 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+                0x080024dc                timer_set_period
+ .text.timer_set_oc1_mode
+                0x080024e0       0x62 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+                0x080024e0                timer_set_oc1_mode
+ .text.timer_set_oc2_mode
+                0x08002542       0x62 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+                0x08002542                timer_set_oc2_mode
+ .text.timer_set_oc3_mode
+                0x080025a4       0x62 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+                0x080025a4                timer_set_oc3_mode
+ .text.timer_set_oc4_mode
+                0x08002606       0x62 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+                0x08002606                timer_set_oc4_mode
+ .text.timer_set_oc_mode
+                0x08002668       0x26 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+                0x08002668                timer_set_oc_mode
+ .text.timer_enable_oc_output
+                0x0800268e       0x4a C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+                0x0800268e                timer_enable_oc_output
+ .text.timer_set_oc_value
+                0x080026d8       0x20 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+                0x080026d8                timer_set_oc_value
+ .text.blocking_handler
+                0x080026f8        0x2 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(vector.o)
+                0x080026f8                usart3_isr
+                0x080026f8                rtc_isr
+                0x080026f8                tim7_isr
+                0x080026f8                adc1_2_isr
+                0x080026f8                tim1_trg_com_isr
+                0x080026f8                usb_hp_can_tx_isr
+                0x080026f8                tim6_isr
+                0x080026f8                usb_wakeup_isr
+                0x080026f8                blocking_handler
+                0x080026f8                tim5_isr
+                0x080026f8                otg_fs_isr
+                0x080026f8                spi1_isr
+                0x080026f8                exti2_isr
+                0x080026f8                dma1_channel6_isr
+                0x080026f8                can_rx1_isr
+                0x080026f8                dma1_channel5_isr
+                0x080026f8                dma2_channel5_isr
+                0x080026f8                usart1_isr
+                0x080026f8                usage_fault_handler
+                0x080026f8                tim8_trg_com_isr
+                0x080026f8                can2_rx0_isr
+                0x080026f8                tim1_brk_isr
+                0x080026f8                can2_rx1_isr
+                0x080026f8                tim1_cc_isr
+                0x080026f8                sdio_isr
+                0x080026f8                eth_isr
+                0x080026f8                dma1_channel4_isr
+                0x080026f8                tim8_brk_isr
+                0x080026f8                dma2_channel4_5_isr
+                0x080026f8                pvd_isr
+                0x080026f8                rcc_isr
+                0x080026f8                flash_isr
+                0x080026f8                uart4_isr
+                0x080026f8                rtc_alarm_isr
+                0x080026f8                exti15_10_isr
+                0x080026f8                hard_fault_handler
+                0x080026f8                exti1_isr
+                0x080026f8                i2c1_ev_isr
+                0x080026f8                dma2_channel1_isr
+                0x080026f8                spi2_isr
+                0x080026f8                tim8_up_isr
+                0x080026f8                dma2_channel2_isr
+                0x080026f8                exti3_isr
+                0x080026f8                adc3_isr
+                0x080026f8                tim3_isr
+                0x080026f8                usart2_isr
+                0x080026f8                usb_lp_can_rx0_isr
+                0x080026f8                i2c2_er_isr
+                0x080026f8                i2c2_ev_isr
+                0x080026f8                uart5_isr
+                0x080026f8                fsmc_isr
+                0x080026f8                exti4_isr
+                0x080026f8                mem_manage_handler
+                0x080026f8                can2_tx_isr
+                0x080026f8                exti9_5_isr
+                0x080026f8                dma2_channel3_isr
+                0x080026f8                dma1_channel7_isr
+                0x080026f8                tim1_up_isr
+                0x080026f8                can2_sce_isr
+                0x080026f8                tim4_isr
+                0x080026f8                dma1_channel2_isr
+                0x080026f8                i2c1_er_isr
+                0x080026f8                can_sce_isr
+                0x080026f8                tim8_cc_isr
+                0x080026f8                tamper_isr
+                0x080026f8                eth_wkup_isr
+                0x080026f8                bus_fault_handler
+                0x080026f8                wwdg_isr
+                0x080026f8                dma1_channel3_isr
+                0x080026f8                spi3_isr
+                0x080026f8                tim2_isr
+                0x080026f8                exti0_isr
+ .text.null_handler
+                0x080026fa        0x2 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(vector.o)
+                0x080026fa                debug_monitor_handler
+                0x080026fa                nmi_handler
+                0x080026fa                null_handler
+ .text.reset_handler
+                0x080026fc       0x94 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(vector.o)
+                0x080026fc                reset_handler
+ .text.nvic_enable_irq
+                0x08002790       0x18 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(nvic.o)
+                0x08002790                nvic_enable_irq
+ .text.nvic_set_priority
+                0x080027a8       0x20 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(nvic.o)
+                0x080027a8                nvic_set_priority
+ .text.flash_set_ws
+                0x080027c8       0x14 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(flash_common_all.o)
+                0x080027c8                flash_set_ws
+                0x080027dc                        . = ALIGN (0x4)
+ *(.rodata*)
+ .rodata.main.str1.1
+                0x080027dc       0x10 main.o
+                                  0xb (size before relaxing)
+ .rodata.vTaskStartScheduler.str1.1
+                0x080027ec        0x5 rtos/tasks.o
+ .rodata.uxTopUsedPriority
+                0x080027ec        0x4 rtos/tasks.o
+                0x080027ec                uxTopUsedPriority
+ .rodata.rcc_hse_configs
+                0x080027f0       0x8c C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+                0x080027f0                rcc_hse_configs
+                0x0800287c                        . = ALIGN (0x4)
+
+.glue_7         0x0800287c        0x0
+ .glue_7        0x0800287c        0x0 linker stubs
+
+.glue_7t        0x0800287c        0x0
+ .glue_7t       0x0800287c        0x0 linker stubs
+
+.vfp11_veneer   0x0800287c        0x0
+ .vfp11_veneer  0x0800287c        0x0 linker stubs
+
+.v4_bx          0x0800287c        0x0
+ .v4_bx         0x0800287c        0x0 linker stubs
+
+.iplt           0x0800287c        0x0
+ .iplt          0x0800287c        0x0 main.o
+
+.preinit_array  0x0800287c        0x0
+                0x0800287c                        . = ALIGN (0x4)
+                0x0800287c                        __preinit_array_start = .
+ *(.preinit_array)
+                0x0800287c                        __preinit_array_end = .
+
+.init_array     0x0800287c        0x0
+                0x0800287c                        . = ALIGN (0x4)
+                0x0800287c                        __init_array_start = .
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array)
+                0x0800287c                        __init_array_end = .
+
+.fini_array     0x0800287c        0x0
+                0x0800287c                        . = ALIGN (0x4)
+                0x0800287c                        __fini_array_start = .
+ *(.fini_array)
+ *(SORT_BY_NAME(.fini_array.*))
+                0x0800287c                        __fini_array_end = .
+
+.ARM.extab
+ *(.ARM.extab*)
+
+.ARM.exidx      0x0800287c        0x8
+                0x0800287c                        __exidx_start = .
+ *(.ARM.exidx*)
+ .ARM.exidx     0x0800287c        0x8 C:/PROGRA~2/ARMGNU~1/142BCE~1.3RE/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-memcpy.o)
+                0x08002884                        __exidx_end = .
+
+.rel.dyn        0x08002884        0x0
+ .rel.iplt      0x08002884        0x0 main.o
+                0x08002884                        . = ALIGN (0x4)
+                0x08002884                        _etext = .
+
+.data           0x20000000       0x10 load address 0x08002884
+                0x20000000                        _data = .
+ *(.data*)
+ .data.uxCriticalNesting
+                0x20000000        0x4 rtos/port.o
+ .data.rcc_ahb_frequency
+                0x20000004        0x4 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+                0x20000004                rcc_ahb_frequency
+ .data.rcc_apb2_frequency
+                0x20000008        0x4 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+                0x20000008                rcc_apb2_frequency
+ .data.rcc_apb1_frequency
+                0x2000000c        0x4 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+                0x2000000c                rcc_apb1_frequency
+                0x20000010                        . = ALIGN (0x4)
+                0x20000010                        _edata = .
+                0x08002884                        _data_loadaddr = LOADADDR (.data)
+
+.igot.plt       0x20000010        0x0 load address 0x08002894
+ .igot.plt      0x20000010        0x0 main.o
+
+.bss            0x20000010     0x4530 load address 0x08002894
+ *(.bss*)
+ .bss.xBlockAllocatedBit
+                0x20000010        0x4 rtos/heap_4.o
+ .bss.xNumberOfSuccessfulFrees
+                0x20000014        0x4 rtos/heap_4.o
+ .bss.xNumberOfSuccessfulAllocations
+                0x20000018        0x4 rtos/heap_4.o
+ .bss.xMinimumEverFreeBytesRemaining
+                0x2000001c        0x4 rtos/heap_4.o
+ .bss.xFreeBytesRemaining
+                0x20000020        0x4 rtos/heap_4.o
+ .bss.pxEnd     0x20000024        0x4 rtos/heap_4.o
+ .bss.xStart    0x20000028        0x8 rtos/heap_4.o
+ .bss.ucHeap    0x20000030     0x4400 rtos/heap_4.o
+ .bss.uxSchedulerSuspended
+                0x20004430        0x4 rtos/tasks.o
+ .bss.xIdleTaskHandle
+                0x20004434        0x4 rtos/tasks.o
+ .bss.xNextTaskUnblockTime
+                0x20004438        0x4 rtos/tasks.o
+ .bss.uxTaskNumber
+                0x2000443c        0x4 rtos/tasks.o
+ .bss.xNumOfOverflows
+                0x20004440        0x4 rtos/tasks.o
+ .bss.xYieldPending
+                0x20004444        0x4 rtos/tasks.o
+ .bss.xPendedTicks
+                0x20004448        0x4 rtos/tasks.o
+ .bss.xSchedulerRunning
+                0x2000444c        0x4 rtos/tasks.o
+ .bss.uxTopReadyPriority
+                0x20004450        0x4 rtos/tasks.o
+ .bss.xTickCount
+                0x20004454        0x4 rtos/tasks.o
+ .bss.uxCurrentNumberOfTasks
+                0x20004458        0x4 rtos/tasks.o
+ .bss.xSuspendedTaskList
+                0x2000445c       0x14 rtos/tasks.o
+ .bss.uxDeletedTasksWaitingCleanUp
+                0x20004470        0x4 rtos/tasks.o
+ .bss.xTasksWaitingTermination
+                0x20004474       0x14 rtos/tasks.o
+ .bss.xPendingReadyList
+                0x20004488       0x14 rtos/tasks.o
+ .bss.pxOverflowDelayedTaskList
+                0x2000449c        0x4 rtos/tasks.o
+ .bss.pxDelayedTaskList
+                0x200044a0        0x4 rtos/tasks.o
+ .bss.xDelayedTaskList2
+                0x200044a4       0x14 rtos/tasks.o
+ .bss.xDelayedTaskList1
+                0x200044b8       0x14 rtos/tasks.o
+ .bss.pxReadyTasksLists
+                0x200044cc       0x64 rtos/tasks.o
+ .bss.pxCurrentTCB
+                0x20004530        0x4 rtos/tasks.o
+                0x20004530                pxCurrentTCB
+ .bss.mutex_adc_buffer
+                0x20004534        0x4 config.o
+                0x20004534                mutex_adc_buffer
+ .bss.sem_adc_ready
+                0x20004538        0x4 config.o
+                0x20004538                sem_adc_ready
+ .bss.adc_dma_buffer
+                0x2000453c        0x2 config.o
+                0x2000453c                adc_dma_buffer
+ *(COMMON)
+                0x20004540                        . = ALIGN (0x4)
+ *fill*         0x2000453e        0x2 
+                0x20004540                        _ebss = .
+
+/DISCARD/
+ *(.eh_frame)
+                0x20004540                        . = ALIGN (0x4)
+                0x20004540                        end = .
+                0x20005000                        PROVIDE (_stack = (ORIGIN (ram) + LENGTH (ram)))
+OUTPUT(main.elf elf32-littlearm)
+LOAD linker stubs
+
+.debug_info     0x00000000     0xaf09
+ .debug_info    0x00000000      0x379 main.o
+ .debug_info    0x00000379      0x516 rtos/heap_4.o
+ .debug_info    0x0000088f      0x2b8 rtos/list.o
+ .debug_info    0x00000b47      0x337 rtos/port.o
+ .debug_info    0x00000e7e     0x199b rtos/queue.o
+ .debug_info    0x00002819     0x24eb rtos/tasks.o
+ .debug_info    0x00004d04       0xde rtos/opencm3.o
+ .debug_info    0x00004de2     0x1002 config.o
+ .debug_info    0x00005de4      0x4c9 app_task.o
+ .debug_info    0x000062ad      0x2a2 pid_controller.o
+ .debug_info    0x0000654f      0x397 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc.o)
+ .debug_info    0x000068e6      0x888 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .debug_info    0x0000716e      0x781 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+ .debug_info    0x000078ef      0x1fd C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio.o)
+ .debug_info    0x00007aec      0x256 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_info    0x00007d42     0x14d0 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .debug_info    0x00009212      0x60d C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_info    0x0000981f     0x10fc C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_info    0x0000a91b      0x2c4 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(vector.o)
+ .debug_info    0x0000abdf      0x239 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(nvic.o)
+ .debug_info    0x0000ae18       0xf1 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(flash_common_all.o)
+
+.debug_abbrev   0x00000000     0x242a
+ .debug_abbrev  0x00000000      0x163 main.o
+ .debug_abbrev  0x00000163      0x25a rtos/heap_4.o
+ .debug_abbrev  0x000003bd      0x10a rtos/list.o
+ .debug_abbrev  0x000004c7      0x23b rtos/port.o
+ .debug_abbrev  0x00000702      0x3c3 rtos/queue.o
+ .debug_abbrev  0x00000ac5      0x4cd rtos/tasks.o
+ .debug_abbrev  0x00000f92       0x81 rtos/opencm3.o
+ .debug_abbrev  0x00001013      0x1dd config.o
+ .debug_abbrev  0x000011f0      0x1ec app_task.o
+ .debug_abbrev  0x000013dc      0x12e pid_controller.o
+ .debug_abbrev  0x0000150a      0x195 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc.o)
+ .debug_abbrev  0x0000169f      0x1ab C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .debug_abbrev  0x0000184a      0x168 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+ .debug_abbrev  0x000019b2       0xd3 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio.o)
+ .debug_abbrev  0x00001a85      0x115 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_abbrev  0x00001b9a      0x2be C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .debug_abbrev  0x00001e58      0x185 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_abbrev  0x00001fdd      0x1b8 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_abbrev  0x00002195      0x149 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(vector.o)
+ .debug_abbrev  0x000022de       0xb6 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(nvic.o)
+ .debug_abbrev  0x00002394       0x96 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(flash_common_all.o)
+
+.debug_loclists
+                0x00000000     0x39ff
+ .debug_loclists
+                0x00000000       0x20 main.o
+ .debug_loclists
+                0x00000020      0x2b2 rtos/heap_4.o
+ .debug_loclists
+                0x000002d2       0x77 rtos/list.o
+ .debug_loclists
+                0x00000349       0x82 rtos/port.o
+ .debug_loclists
+                0x000003cb      0xbe8 rtos/queue.o
+ .debug_loclists
+                0x00000fb3     0x13ad rtos/tasks.o
+ .debug_loclists
+                0x00002360       0x47 config.o
+ .debug_loclists
+                0x000023a7      0x171 app_task.o
+ .debug_loclists
+                0x00002518       0xf0 pid_controller.o
+ .debug_loclists
+                0x00002608      0x164 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc.o)
+ .debug_loclists
+                0x0000276c      0x325 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .debug_loclists
+                0x00002a91      0x6a9 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+ .debug_loclists
+                0x0000313a      0x100 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio.o)
+ .debug_loclists
+                0x0000323a       0x96 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_loclists
+                0x000032d0      0x2cb C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .debug_loclists
+                0x0000359b       0x87 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_loclists
+                0x00003622      0x20d C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_loclists
+                0x0000382f       0xa8 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(vector.o)
+ .debug_loclists
+                0x000038d7      0x111 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(nvic.o)
+ .debug_loclists
+                0x000039e8       0x17 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(flash_common_all.o)
+
+.debug_aranges  0x00000000      0xcf0
+ .debug_aranges
+                0x00000000       0x28 main.o
+ .debug_aranges
+                0x00000028       0x50 rtos/heap_4.o
+ .debug_aranges
+                0x00000078       0x40 rtos/list.o
+ .debug_aranges
+                0x000000b8       0x70 rtos/port.o
+ .debug_aranges
+                0x00000128       0xc0 rtos/queue.o
+ .debug_aranges
+                0x000001e8      0x180 rtos/tasks.o
+ .debug_aranges
+                0x00000368       0x30 rtos/opencm3.o
+ .debug_aranges
+                0x00000398       0x50 config.o
+ .debug_aranges
+                0x000003e8       0x28 app_task.o
+ .debug_aranges
+                0x00000410       0x30 pid_controller.o
+ .debug_aranges
+                0x00000440       0x98 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc.o)
+ .debug_aranges
+                0x000004d8      0x158 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .debug_aranges
+                0x00000630       0xe8 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+ .debug_aranges
+                0x00000718       0x38 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio.o)
+ .debug_aranges
+                0x00000750       0x50 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_aranges
+                0x000007a0      0x170 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .debug_aranges
+                0x00000910       0x80 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_aranges
+                0x00000990      0x298 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_aranges
+                0x00000c28       0x30 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(vector.o)
+ .debug_aranges
+                0x00000c58       0x60 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(nvic.o)
+ .debug_aranges
+                0x00000cb8       0x38 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(flash_common_all.o)
+
+.debug_rnglists
+                0x00000000      0xc5c
+ .debug_rnglists
+                0x00000000       0x26 main.o
+ .debug_rnglists
+                0x00000026       0x39 rtos/heap_4.o
+ .debug_rnglists
+                0x0000005f       0x2b rtos/list.o
+ .debug_rnglists
+                0x0000008a       0x5b rtos/port.o
+ .debug_rnglists
+                0x000000e5      0x161 rtos/queue.o
+ .debug_rnglists
+                0x00000246      0x2ce rtos/tasks.o
+ .debug_rnglists
+                0x00000514       0x1f rtos/opencm3.o
+ .debug_rnglists
+                0x00000533       0x44 config.o
+ .debug_rnglists
+                0x00000577       0x26 app_task.o
+ .debug_rnglists
+                0x0000059d       0x20 pid_controller.o
+ .debug_rnglists
+                0x000005bd       0x6d C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc.o)
+ .debug_rnglists
+                0x0000062a       0xfd C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .debug_rnglists
+                0x00000727       0xa9 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+ .debug_rnglists
+                0x000007d0       0x25 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio.o)
+ .debug_rnglists
+                0x000007f5       0x37 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_rnglists
+                0x0000082c      0x160 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .debug_rnglists
+                0x0000098c       0x5b C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_rnglists
+                0x000009e7      0x1ed C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_rnglists
+                0x00000bd4       0x20 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(vector.o)
+ .debug_rnglists
+                0x00000bf4       0x43 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(nvic.o)
+ .debug_rnglists
+                0x00000c37       0x25 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(flash_common_all.o)
+
+.debug_line     0x00000000     0x8b9d
+ .debug_line    0x00000000      0x241 main.o
+ .debug_line    0x00000241      0x55d rtos/heap_4.o
+ .debug_line    0x0000079e      0x28f rtos/list.o
+ .debug_line    0x00000a2d      0x342 rtos/port.o
+ .debug_line    0x00000d6f      0xfd2 rtos/queue.o
+ .debug_line    0x00001d41     0x1c6f rtos/tasks.o
+ .debug_line    0x000039b0       0x6b rtos/opencm3.o
+ .debug_line    0x00003a1b      0x405 config.o
+ .debug_line    0x00003e20      0x285 app_task.o
+ .debug_line    0x000040a5      0x14c pid_controller.o
+ .debug_line    0x000041f1      0x591 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc.o)
+ .debug_line    0x00004782      0x893 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .debug_line    0x00005015      0x642 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+ .debug_line    0x00005657      0x3f0 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio.o)
+ .debug_line    0x00005a47      0x3a9 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_line    0x00005df0      0xd59 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .debug_line    0x00006b49      0x450 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_line    0x00006f99     0x1115 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_line    0x000080ae      0x3c4 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(vector.o)
+ .debug_line    0x00008472      0x3d1 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(nvic.o)
+ .debug_line    0x00008843      0x35a C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(flash_common_all.o)
+
+.debug_str      0x00000000    0x1952d
+ .debug_str     0x00000000    0x1952d main.o
+                                0x2f4 (size before relaxing)
+ .debug_str     0x0001952d      0x4a7 rtos/heap_4.o
+ .debug_str     0x0001952d      0x2be rtos/list.o
+ .debug_str     0x0001952d      0x333 rtos/port.o
+ .debug_str     0x0001952d      0x92a rtos/queue.o
+ .debug_str     0x0001952d      0xf18 rtos/tasks.o
+ .debug_str     0x0001952d      0x1d6 rtos/opencm3.o
+ .debug_str     0x0001952d      0xc98 config.o
+ .debug_str     0x0001952d      0x3f1 app_task.o
+ .debug_str     0x0001952d      0x23e pid_controller.o
+ .debug_str     0x0001952d     0x7540 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc.o)
+ .debug_str     0x0001952d     0x78b5 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .debug_str     0x0001952d     0x6db8 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+ .debug_str     0x0001952d     0x8744 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio.o)
+ .debug_str     0x0001952d     0x8738 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_str     0x0001952d     0x8399 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .debug_str     0x0001952d     0x7aa7 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_str     0x0001952d     0xc08f C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_str     0x0001952d     0x677e C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(vector.o)
+ .debug_str     0x0001952d     0x5d60 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(nvic.o)
+ .debug_str     0x0001952d     0x567d C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(flash_common_all.o)
+
+.comment        0x00000000       0x46
+ .comment       0x00000000       0x46 main.o
+                                 0x47 (size before relaxing)
+ .comment       0x00000046       0x47 rtos/heap_4.o
+ .comment       0x00000046       0x47 rtos/list.o
+ .comment       0x00000046       0x47 rtos/port.o
+ .comment       0x00000046       0x47 rtos/queue.o
+ .comment       0x00000046       0x47 rtos/tasks.o
+ .comment       0x00000046       0x47 rtos/opencm3.o
+ .comment       0x00000046       0x47 config.o
+ .comment       0x00000046       0x47 app_task.o
+ .comment       0x00000046       0x47 pid_controller.o
+ .comment       0x00000046       0x47 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc.o)
+ .comment       0x00000046       0x47 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .comment       0x00000046       0x47 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+ .comment       0x00000046       0x47 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio.o)
+ .comment       0x00000046       0x47 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio_common_all.o)
+ .comment       0x00000046       0x47 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .comment       0x00000046       0x47 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc_common_all.o)
+ .comment       0x00000046       0x47 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .comment       0x00000046       0x47 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(vector.o)
+ .comment       0x00000046       0x47 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(nvic.o)
+ .comment       0x00000046       0x47 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(flash_common_all.o)
+
+.ARM.attributes
+                0x00000000       0x2b
+ .ARM.attributes
+                0x00000000       0x2d main.o
+ .ARM.attributes
+                0x0000002d       0x2d rtos/heap_4.o
+ .ARM.attributes
+                0x0000005a       0x2d rtos/list.o
+ .ARM.attributes
+                0x00000087       0x2d rtos/port.o
+ .ARM.attributes
+                0x000000b4       0x2d rtos/queue.o
+ .ARM.attributes
+                0x000000e1       0x2d rtos/tasks.o
+ .ARM.attributes
+                0x0000010e       0x2d rtos/opencm3.o
+ .ARM.attributes
+                0x0000013b       0x2d config.o
+ .ARM.attributes
+                0x00000168       0x2d app_task.o
+ .ARM.attributes
+                0x00000195       0x2d pid_controller.o
+ .ARM.attributes
+                0x000001c2       0x1b C:/PROGRA~2/ARMGNU~1/142BCE~1.3RE/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-memcpy.o)
+ .ARM.attributes
+                0x000001dd       0x1d C:/PROGRA~2/ARMGNU~1/142BCE~1.3RE/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
+ .ARM.attributes
+                0x000001fa       0x1d C:/PROGRA~2/ARMGNU~1/142BCE~1.3RE/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivsf3.o)
+ .ARM.attributes
+                0x00000217       0x1d C:/PROGRA~2/ARMGNU~1/142BCE~1.3RE/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7-m/nofp\libgcc.a(_arm_cmpsf2.o)
+ .ARM.attributes
+                0x00000234       0x1d C:/PROGRA~2/ARMGNU~1/142BCE~1.3RE/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7-m/nofp\libgcc.a(_arm_fixsfsi.o)
+ .ARM.attributes
+                0x00000251       0x2d C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc.o)
+ .ARM.attributes
+                0x0000027e       0x2d C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .ARM.attributes
+                0x000002ab       0x2d C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+ .ARM.attributes
+                0x000002d8       0x2d C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio.o)
+ .ARM.attributes
+                0x00000305       0x2d C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio_common_all.o)
+ .ARM.attributes
+                0x00000332       0x2d C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .ARM.attributes
+                0x0000035f       0x2d C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc_common_all.o)
+ .ARM.attributes
+                0x0000038c       0x2d C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .ARM.attributes
+                0x000003b9       0x2d C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(vector.o)
+ .ARM.attributes
+                0x000003e6       0x2d C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(nvic.o)
+ .ARM.attributes
+                0x00000413       0x2d C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(flash_common_all.o)
+
+.debug_frame    0x00000000     0x1d74
+ .debug_frame   0x00000000       0x40 main.o
+ .debug_frame   0x00000040       0xc4 rtos/heap_4.o
+ .debug_frame   0x00000104       0x6c rtos/list.o
+ .debug_frame   0x00000170       0xd8 rtos/port.o
+ .debug_frame   0x00000248      0x264 rtos/queue.o
+ .debug_frame   0x000004ac      0x4cc rtos/tasks.o
+ .debug_frame   0x00000978       0x40 rtos/opencm3.o
+ .debug_frame   0x000009b8       0xcc config.o
+ .debug_frame   0x00000a84       0x48 app_task.o
+ .debug_frame   0x00000acc       0x54 pid_controller.o
+ .debug_frame   0x00000b20       0x28 C:/PROGRA~2/ARMGNU~1/142BCE~1.3RE/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-memcpy.o)
+ .debug_frame   0x00000b48       0x4c C:/PROGRA~2/ARMGNU~1/142BCE~1.3RE/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
+ .debug_frame   0x00000b94       0x38 C:/PROGRA~2/ARMGNU~1/142BCE~1.3RE/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivsf3.o)
+ .debug_frame   0x00000bcc       0xc8 C:/PROGRA~2/ARMGNU~1/142BCE~1.3RE/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7-m/nofp\libgcc.a(_arm_cmpsf2.o)
+ .debug_frame   0x00000c94       0x24 C:/PROGRA~2/ARMGNU~1/142BCE~1.3RE/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7-m/nofp\libgcc.a(_arm_fixsfsi.o)
+ .debug_frame   0x00000cb8      0x128 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc.o)
+ .debug_frame   0x00000de0      0x2b4 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .debug_frame   0x00001094      0x1b0 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+ .debug_frame   0x00001244       0x64 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio.o)
+ .debug_frame   0x000012a8       0x80 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_frame   0x00001328      0x318 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .debug_frame   0x00001640       0xe0 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_frame   0x00001720      0x518 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_frame   0x00001c38       0x4c C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(vector.o)
+ .debug_frame   0x00001c84       0xa0 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(nvic.o)
+ .debug_frame   0x00001d24       0x50 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(flash_common_all.o)
+
+.debug_line_str
+                0x00000000      0x1a9
+ .debug_line_str
+                0x00000000      0x1a9 C:/PROGRA~2/ARMGNU~1/142BCE~1.3RE/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a(libc_a-memcpy.o)
+                                 0xdf (size before relaxing)
+ .debug_line_str
+                0x000001a9       0xca C:/PROGRA~2/ARMGNU~1/142BCE~1.3RE/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
+ .debug_line_str
+                0x000001a9       0xca C:/PROGRA~2/ARMGNU~1/142BCE~1.3RE/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivsf3.o)
+ .debug_line_str
+                0x000001a9       0xca C:/PROGRA~2/ARMGNU~1/142BCE~1.3RE/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7-m/nofp\libgcc.a(_arm_cmpsf2.o)
+ .debug_line_str
+                0x000001a9       0xca C:/PROGRA~2/ARMGNU~1/142BCE~1.3RE/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7-m/nofp\libgcc.a(_arm_fixsfsi.o)
+
+.debug_macro    0x00000000     0x5a2f
+ .debug_macro   0x00000000       0xb8 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc.o)
+ .debug_macro   0x000000b8      0xac0 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc.o)
+ .debug_macro   0x00000b78       0x1c C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc.o)
+ .debug_macro   0x00000b94       0x22 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc.o)
+ .debug_macro   0x00000bb6       0x56 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc.o)
+ .debug_macro   0x00000c0c       0x51 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc.o)
+ .debug_macro   0x00000c5d      0x103 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc.o)
+ .debug_macro   0x00000d60       0x6a C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc.o)
+ .debug_macro   0x00000dca      0x1df C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc.o)
+ .debug_macro   0x00000fa9       0x22 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc.o)
+ .debug_macro   0x00000fcb       0xe8 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc.o)
+ .debug_macro   0x000010b3       0x76 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc.o)
+ .debug_macro   0x00001129      0x1b4 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc.o)
+ .debug_macro   0x000012dd      0x449 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc.o)
+ .debug_macro   0x00001726      0x456 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc.o)
+ .debug_macro   0x00001b7c       0xb8 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(adc_common_v1.o)
+ .debug_macro   0x00001c34       0xb3 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+ .debug_macro   0x00001ce7      0x4f5 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(dma_common_l1f013.o)
+ .debug_macro   0x000021dc       0xb8 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio.o)
+ .debug_macro   0x00002294       0x76 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio.o)
+ .debug_macro   0x0000230a      0xe2e C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio.o)
+ .debug_macro   0x00003138       0xb8 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(gpio_common_all.o)
+ .debug_macro   0x000031f0       0xe7 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x000032d7       0x16 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x000032ed      0x8c6 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x00003bb3       0xee C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x00003ca1       0x82 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc.o)
+ .debug_macro   0x00003d23       0xce C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(rcc_common_all.o)
+ .debug_macro   0x00003df1       0xc5 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_macro   0x00003eb6      0xf8f C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(timer_common_all.o)
+ .debug_macro   0x00004e45       0xcf C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(vector.o)
+ .debug_macro   0x00004f14      0x395 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(vector.o)
+ .debug_macro   0x000052a9       0x6e C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(vector.o)
+ .debug_macro   0x00005317      0x1a2 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(vector.o)
+ .debug_macro   0x000054b9       0xb3 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(nvic.o)
+ .debug_macro   0x0000556c       0x68 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(nvic.o)
+ .debug_macro   0x000055d4      0x39b C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(nvic.o)
+ .debug_macro   0x0000596f       0xc0 C:/msys64/home/Luis/stm32f103c8t6/libopencm3/lib\libopencm3_stm32f1.a(flash_common_all.o)

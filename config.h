@@ -14,21 +14,22 @@
 #define LED_PORT    GPIOC
 #define LED_PIN     GPIO13
 
-#define PWM_PORT    GPIOA
-#define PWM_TIM     TIM2
+// --- PWM 1: Frecuencia Variable ---
+// Usa Timer 2, Canal 1
+#define PWM1_PORT   GPIOA
 #define PWM1_PIN    GPIO0
+#define PWM1_TIM    TIM2
 #define PWM1_CH     TIM_OC1
-#define PWM2_PIN    GPIO3
-#define PWM2_CH     TIM_OC4
 
+// --- ADC ---
 #define ADC_PORT    GPIOA
 #define POT1_PIN    GPIO1
-#define POT2_PIN    GPIO2
 #define ADC_DEV     ADC1
 
 // --- Globales ---
-extern volatile uint16_t adc_dma_buffer[2];
+extern volatile uint16_t adc_dma_buffer[1];
 extern SemaphoreHandle_t sem_adc_ready;
+extern SemaphoreHandle_t mutex_adc_buffer;
 
 // --- Funciones ---
 void clock_setup(void);
@@ -36,6 +37,6 @@ void gpio_setup(void);
 void dma_setup(void);
 void adc_setup(void);
 void pwm_setup(void);
-void adc_start_scan(void); // Disparo manual del DMA
+void adc_start_scan(void);
 
 #endif /* CONFIG_H */

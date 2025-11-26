@@ -3,7 +3,7 @@
 ######################################################################
 
 BINARY		= main
-SRCFILES	= main.c rtos/heap_4.c rtos/list.c rtos/port.c rtos/queue.c rtos/tasks.c rtos/opencm3.c config.c app_task.c
+SRCFILES	= main.c rtos/heap_4.c rtos/list.c rtos/port.c rtos/queue.c rtos/tasks.c rtos/opencm3.c config.c app_task.c pid_controller.c
 LDSCRIPT	= stm32f103c8t6.ld
 
 # DEPS		= 	# Any additional dependencies for your build
